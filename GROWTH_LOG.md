@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-10-20 - Adsterra ad codes bound to the approved placement inventory
+
+- `adsterra-integrator` filled all 15 `adsterra-placement-inventory-v1` unit keys in `src/data/ads.ts` with real Adsterra codes. Positions, components, keys and the manifest are unchanged; only the previously empty placeholder values were replaced.
+- Platform applications were deduplicated by format and size: 15 page keys map to 7 platform placements — Banner 728x90, Banner 468x60, Banner 320x50, Banner 300x250 (mobile home topic gap only), Banner 160x300 (guide rail), Native Banner, and one Smartlink for the footer sponsorship slot. Page keys sharing a format/size share one platform placement and code.
+- Popunder and Social Bar were not selected by the page inventory, so no such code was applied or written to this site.
+- All bound units were Active at collection time, so no RESUBMIT was needed.
+- Verification: local `npm run verify` (typecheck + lint + build). Only `src/data/ads.ts` and this log changed.
+
 ### 2026-10-20 - V4 first launch: Probably Stolen - Cyberpunk Shopkeeper Sim
 
 - Domain: `https://probablystolen-cyberpunkshopkeepersim.wiki`. Launch pipeline: `guide-v4`. Platform: Steam. Language: English / US.

@@ -225,6 +225,8 @@ export const startingProfessionsPage: PageContent = {
       ],
       outro: `Apprentice, or no specialisation, is not ranked because it does not appear on the profession list. Gameplay marks it as recommended for newcomers: it offers extra starting credits and storage after training in operations. Rat Wrangler was unhidden by Patch 48.3.12 on 7 August 2026, and Rock Bottom was added in Playtest Patch 48.3.10 on 6 August 2026.
 
+Rock Bottom also carries its own finish line: From Nothing unlocks for completing a run started from Rock Bottom, and From Nothing, the Hard Way for the same on hard mode. Finishing from any other profession does not count toward either.
+
 The organ dealer is not a day-one path. It is a later job unlocked through machines and licences, alongside the underground market content.`,
     },
     {
@@ -292,7 +294,7 @@ The organ dealer is not a day-one path. It is a later job unlocked through machi
   relatedPageIds: ["water-merchant", "crafting-machines"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-21",
 };
 
 export const moneyAndRentPage: PageContent = {
@@ -410,6 +412,14 @@ Water production needs an AquaScan or the starter kit to certify grades, and win
       body: `Rent is the cost of staying open, and paying it does not move you toward the buyout. The buyout is a separate mortgage goal, so surplus has to be saved on top of rent until the till meets the requirement on your HUD — the [buying out the shop guide](/guides/buy-out-the-shop) covers the funding order and when to stop expanding.`,
     },
     {
+      id: "the-same-credits-are-also-milestones",
+      type: "prose",
+      heading: "The same credits are also achievement milestones",
+      body: `Two public milestones watch the number you are protecting, not just the rent invoice: Comfortably Afloat needs over 10,000 credits of estimated total wealth and Swimming in Credits needs more than 100,000. Both are measured at the start of a day, so a sale on day N does not register until the morning of day N+1.
+
+That timing is the whole trick: land the sale early enough that you are over the line before you sleep, and clear rent first, because a shop that has missed a week is worth less at midnight than it was at dawn. The [buyout milestone table](/guides/buy-out-the-shop) puts both credits milestones next to the deed and attractiveness ones, so you can budget against all of them at once.`,
+    },
+    {
       id: "costs-that-are-not-rent",
       type: "entity-grid",
       heading: "The costs that are not rent",
@@ -444,7 +454,7 @@ Water production needs an AquaScan or the starter kit to certify grades, and win
   relatedPageIds: ["production-chains", "buy-out-the-shop"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-21",
 };
 
 export const buyOutTheShopPage: PageContent = {
@@ -459,9 +469,9 @@ export const buyOutTheShopPage: PageContent = {
   h1: "Probably Stolen Buy Out The Shop: Save Up And Take Over",
   seoTitle: "Probably Stolen Buy Out The Shop: Save Up And Take Over",
   metaDescription:
-    "The buyout is a separate mortgage goal with no fixed price. This Probably Stolen buy out the shop guide ranks what to fund first and when to stop expanding.",
+    "The buyout is a separate mortgage goal with no fixed price. This Probably Stolen buy out the shop guide ranks what to fund first and which milestones a rent-safe run unlocks.",
   summary:
-    "The buyout is a separate mortgage goal with no fixed price. This Probably Stolen buy out the shop guide ranks what to fund first and when to stop expanding.",
+    "The buyout is a separate mortgage goal with no fixed price. This Probably Stolen buy out the shop guide ranks what to fund first and which milestones a rent-safe run unlocks.",
   hero: {
     eyebrow: "Money, rent and the shop buyout",
     subtitle: "",
@@ -550,14 +560,63 @@ Two risks specifically threaten the reserve:`,
       ],
       outro: `Joe Wild's insurance is worth buying before the buyout rather than after, because the burglary it covers is exactly the event that would reset your reserve. It claws stolen items back, but it does not bring back the customers who did not walk in.`,
     },
+    {
+      id: "achievement-milestones",
+      type: "data-table",
+      heading: "Achievement milestones: what a rent-safe buyout unlocks",
+      intro: `Seven public milestones sit on top of the ordinary loop. None of them changes how you fund the reserve — they tell you which day to spend and which day to stop:`,
+      columns: [
+        { key: "milestone", label: "Milestone" },
+        { key: "needs", label: "What it needs" },
+        { key: "pace", label: "How it fits the buyout" },
+      ],
+      rows: [
+        {
+          milestone: "Keys to the Kingdom",
+          needs: "Own the deed to the store",
+          pace: "The purchase itself — the same morning the till clears the HUD requirement",
+        },
+        {
+          milestone: "Prodigious",
+          needs: "Acquire the deed before day 50",
+          pace: "The one that costs you pace: expansion bought early is expansion you cannot buy back later",
+        },
+        {
+          milestone: "Comfortably Afloat",
+          needs: "Begin a day holding over 10,000 credits of estimated total wealth",
+          pace: "Checked at the start of a day, so a sale on day N only counts from day N+1",
+        },
+        {
+          milestone: "Swimming in Credits",
+          needs: "Begin a day with more than 100,000 credits of estimated total wealth",
+          pace: "The same check at a higher bar, and it competes with the deposit you are saving",
+        },
+        {
+          milestone: "Shiny",
+          needs: "Start a day with 1,000 store attractiveness",
+          pace: "Driven by the case, food stock and traffic equipment in the funding list above",
+        },
+        {
+          milestone: "Diplomatic",
+          needs: "Reach the highest possible reputation with any one faction",
+          pace: "Whichever faction you already move best — the routes are compared on the [station factions page](/guides/station-factions)",
+        },
+        {
+          milestone: "From Nothing",
+          needs: "Finish the game after starting from Rock Bottom",
+          pace: "A different opening, not a different buyout plan — see the [starting professions page](/guides/starting-professions)",
+        },
+      ],
+      outro: `Insurance still sits first in the funding order: a burglary between one qualifying morning and the next wipes out the streak as well as the reserve, and that is the one loss no amount of patience brings back.`,
+    },
   ],
   adAnchors: [
     { after: "keep-rent-paid-while-the-reserve-builds", slot: "guide-section-break" },
     { after: "fund-these-first", slot: "guide-section-break-2" },
   ],
   faqIds: [],
-  relatedPageIds: ["money-and-rent", "shop-inventory"],
+  relatedPageIds: ["money-and-rent", "shop-inventory", "station-factions"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-21",
 };

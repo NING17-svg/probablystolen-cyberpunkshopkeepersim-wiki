@@ -6,6 +6,16 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-10-21 - Achievement-milestone pacing bridged to the buyout run
+
+- Task `2026-10-21-probablystolen-cyberpunkshopkeepersim-wiki-buyout-milestone-pacing`. Four existing guide routes updated; no new routes, no change to `route-manifest.json`, the ad placement manifest or `src/data/ads.ts`.
+- `/guides/buy-out-the-shop` gained an `achievement-milestones` data-table listing the seven public milestones players hit on the existing loop (Keys to the Kingdom, Prodigious, Comfortably Afloat, Swimming in Credits, Shiny, Diplomatic, From Nothing) with the threshold and where it sits against the insurance-first funding order. Its meta description now names the milestone pacing, and `relatedPageIds` gained `station-factions`.
+- `/guides/money-and-rent` gained `the-same-credits-are-also-milestones`, tying the 10K / 100K estimated-total-wealth milestones to the rent-safe week and linking to the buyout table.
+- `/guides/station-factions` names Diplomatic (highest possible reputation with any one faction) in the standing section and now links to the buyout table.
+- `/guides/starting-professions` records that Rock Bottom has its own finish line: From Nothing, plus From Nothing, the Hard Way on hard mode.
+- Thresholds come from the public achievement listing; each page's `lastReviewed` moved to 2026-10-21, which also updates those four sitemap entries.
+- Verification: local `npm run verify` (typecheck + lint + build) plus the Guide V4 update screenshot gate over all four changed paths.
+
 ### 2026-10-20 - Adsterra ad codes bound to the approved placement inventory
 
 - `adsterra-integrator` filled all 15 `adsterra-placement-inventory-v1` unit keys in `src/data/ads.ts` with real Adsterra codes. Positions, components, keys and the manifest are unchanged; only the previously empty placeholder values were replaced.

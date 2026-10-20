@@ -399,7 +399,9 @@ The Upper Level want premium or counterfeit products while preserving their priv
       heading: "Standing buys access and paints a target",
       body: `Reputation determines access to customers, licences, exclusive deals and protection — and it creates enemies at the same time. Black Market reputation is a real meter that opens exclusive opportunities while raising danger, with documented extra handling at −40.
 
-Joe Wild's Wild Network is not a government but a vendor and community network acting as neighbourhood insurance and water infrastructure, with Joe Wild as its one named figure. You choose daily whether to pay his theft insurance before sleeping; paying can carry a Rock Bottom run through a stolen crate, and refusing is viable when no vulnerable stock is left outside. It has no faction meter of its own.`,
+Joe Wild's Wild Network is not a government but a vendor and community network acting as neighbourhood insurance and water infrastructure, with Joe Wild as its one named figure. You choose daily whether to pay his theft insurance before sleeping; paying can carry a Rock Bottom run through a stolen crate, and refusing is viable when no vulnerable stock is left outside. It has no faction meter of its own.
+
+One public milestone pays for that work directly: Diplomatic unlocks at the highest possible reputation with any one faction. Because it asks for a single faction rather than all four, the cheap route is whichever meter you already move — Security through poster reports, the Black Market through moving illicit goods — instead of spreading thin across the whole table above. The [buyout milestone table](/guides/buy-out-the-shop) sits it next to the credit and deed milestones.`,
     },
     {
       id: "four-ways-to-answer",
@@ -440,10 +442,10 @@ Human customers — regulars, revolutionaries or rude elites — must not be mis
     { after: "the-aug-policy-cuts-across-all-of-them", slot: "guide-section-break-2" },
   ],
   faqIds: [],
-  relatedPageIds: ["customer-reactions", "spot-augs"],
+  relatedPageIds: ["customer-reactions", "spot-augs", "buy-out-the-shop"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-21",
 };
 
 export const spotAugsPage: PageContent = {

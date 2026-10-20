@@ -1,0 +1,5 @@
+# ads.txt for probablystolen-cyberpunkshopkeepersim.wiki
+# Fixed V4 template AdSense ownership record. The Adsterra integration uses
+# `src/data/ads.ts` (all keys empty at launch); only `adsterra-integrator`
+# fills real Adsterra codes after launch via browser automation.
+google.com, pub-4194035852162505, DIRECT, f08c47fec0942fa0

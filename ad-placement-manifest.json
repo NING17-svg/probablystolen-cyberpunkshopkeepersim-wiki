@@ -1,0 +1,77 @@
+{
+  "schema": "adsterra-placement-inventory-v1",
+  "layout_version": "v4-horizontal-2026-10-02",
+  "adUnits": [
+    { "key": "page-top-desktop", "type": "Banner", "size": "728x90" },
+    { "key": "page-top-mobile", "type": "Banner", "size": "320x50" },
+    { "key": "home-topic-break-desktop", "type": "Banner", "size": "468x60" },
+    { "key": "home-topic-break-mobile", "type": "Banner", "size": "300x250" },
+    { "key": "home-directory-end-desktop", "type": "Banner", "size": "468x60" },
+    { "key": "home-directory-end-mobile", "type": "Banner", "size": "320x50" },
+    { "key": "guide-native-mobile", "type": "Native Banner" },
+    { "key": "guide-section-break-desktop", "type": "Banner", "size": "468x60" },
+    { "key": "guide-section-break-mobile", "type": "Banner", "size": "320x50" },
+    { "key": "guide-section-break-2-desktop", "type": "Banner", "size": "468x60" },
+    { "key": "guide-section-break-2-mobile", "type": "Banner", "size": "320x50" },
+    { "key": "guide-before-faq-desktop", "type": "Banner", "size": "468x60" },
+    { "key": "guide-before-faq-mobile", "type": "Banner", "size": "320x50" },
+    { "key": "guide-rail-desktop", "type": "Banner", "size": "160x300" },
+    { "key": "footer-sponsored-smartlink", "type": "Smartlink" }
+  ],
+  "slots": [
+    {
+      "id": "page-top",
+      "page_kind": "all",
+      "desktop": ["page-top-desktop"],
+      "mobile": ["page-top-mobile"]
+    },
+    {
+      "id": "home-topic-break",
+      "page_kind": "home",
+      "desktop": ["home-topic-break-desktop"],
+      "mobile": ["home-topic-break-mobile"]
+    },
+    {
+      "id": "home-directory-end",
+      "page_kind": "home",
+      "desktop": ["home-directory-end-desktop"],
+      "mobile": ["home-directory-end-mobile"]
+    },
+    {
+      "id": "guide-native",
+      "page_kind": "guide",
+      "desktop": [],
+      "mobile": ["guide-native-mobile"]
+    },
+    {
+      "id": "guide-section-break",
+      "page_kind": "guide",
+      "desktop": ["guide-section-break-desktop"],
+      "mobile": ["guide-section-break-mobile"]
+    },
+    {
+      "id": "guide-section-break-2",
+      "page_kind": "guide",
+      "desktop": ["guide-section-break-2-desktop"],
+      "mobile": ["guide-section-break-2-mobile"]
+    },
+    {
+      "id": "guide-before-faq",
+      "page_kind": "guide",
+      "desktop": ["guide-before-faq-desktop"],
+      "mobile": ["guide-before-faq-mobile"]
+    },
+    {
+      "id": "guide-rail",
+      "page_kind": "guide",
+      "desktop": ["guide-rail-desktop"],
+      "mobile": []
+    },
+    {
+      "id": "footer-sponsored",
+      "page_kind": "all",
+      "desktop": ["footer-sponsored-smartlink"],
+      "mobile": ["footer-sponsored-smartlink"]
+    }
+  ]
+}

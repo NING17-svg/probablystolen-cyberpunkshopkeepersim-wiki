@@ -1,0 +1,212 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "buy-out-the-shop",
+    "translationKey": "buy-out-the-shop",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/buy-out-the-shop",
+    "alternates": {
+      "en-US": "/guides/buy-out-the-shop"
+    }
+  },
+  {
+    "id": "chemist",
+    "translationKey": "chemist",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/chemist",
+    "alternates": {
+      "en-US": "/guides/chemist"
+    }
+  },
+  {
+    "id": "crafting-machines",
+    "translationKey": "crafting-machines",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/crafting-machines",
+    "alternates": {
+      "en-US": "/guides/crafting-machines"
+    }
+  },
+  {
+    "id": "customer-reactions",
+    "translationKey": "customer-reactions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/customer-reactions",
+    "alternates": {
+      "en-US": "/guides/customer-reactions"
+    }
+  },
+  {
+    "id": "display-case",
+    "translationKey": "display-case",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/display-case",
+    "alternates": {
+      "en-US": "/guides/display-case"
+    }
+  },
+  {
+    "id": "fence",
+    "translationKey": "fence",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/fence",
+    "alternates": {
+      "en-US": "/guides/fence"
+    }
+  },
+  {
+    "id": "getting-started",
+    "translationKey": "getting-started",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/getting-started",
+    "alternates": {
+      "en-US": "/guides/getting-started"
+    }
+  },
+  {
+    "id": "hydroponic-farmer",
+    "translationKey": "hydroponic-farmer",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/hydroponic-farmer",
+    "alternates": {
+      "en-US": "/guides/hydroponic-farmer"
+    }
+  },
+  {
+    "id": "money-and-rent",
+    "translationKey": "money-and-rent",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/money-and-rent",
+    "alternates": {
+      "en-US": "/guides/money-and-rent"
+    }
+  },
+  {
+    "id": "night-scavenging",
+    "translationKey": "night-scavenging",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/night-scavenging",
+    "alternates": {
+      "en-US": "/guides/night-scavenging"
+    }
+  },
+  {
+    "id": "production-chains",
+    "translationKey": "production-chains",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/production-chains",
+    "alternates": {
+      "en-US": "/guides/production-chains"
+    }
+  },
+  {
+    "id": "radioactive-waste",
+    "translationKey": "radioactive-waste",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/radioactive-waste",
+    "alternates": {
+      "en-US": "/guides/radioactive-waste"
+    }
+  },
+  {
+    "id": "shop-inventory",
+    "translationKey": "shop-inventory",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/shop-inventory",
+    "alternates": {
+      "en-US": "/guides/shop-inventory"
+    }
+  },
+  {
+    "id": "spot-augs",
+    "translationKey": "spot-augs",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/spot-augs",
+    "alternates": {
+      "en-US": "/guides/spot-augs"
+    }
+  },
+  {
+    "id": "spot-fakes",
+    "translationKey": "spot-fakes",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/spot-fakes",
+    "alternates": {
+      "en-US": "/guides/spot-fakes"
+    }
+  },
+  {
+    "id": "starting-professions",
+    "translationKey": "starting-professions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/starting-professions",
+    "alternates": {
+      "en-US": "/guides/starting-professions"
+    }
+  },
+  {
+    "id": "station-factions",
+    "translationKey": "station-factions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/station-factions",
+    "alternates": {
+      "en-US": "/guides/station-factions"
+    }
+  },
+  {
+    "id": "underground-market",
+    "translationKey": "underground-market",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/underground-market",
+    "alternates": {
+      "en-US": "/guides/underground-market"
+    }
+  },
+  {
+    "id": "water-merchant",
+    "translationKey": "water-merchant",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/water-merchant",
+    "alternates": {
+      "en-US": "/guides/water-merchant"
+    }
+  },
+  {
+    "id": "weapons-dealer",
+    "translationKey": "weapons-dealer",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/weapons-dealer",
+    "alternates": {
+      "en-US": "/guides/weapons-dealer"
+    }
+  }
+]

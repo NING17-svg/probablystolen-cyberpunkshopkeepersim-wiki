@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { site } from "@/data/site";
 import { Analytics } from "@/lib/analytics";
-import { getPrimaryLocaleConfig } from "@/lib/localization";
-import "./globals.css";
+import { getLocaleConfig } from "@/lib/localization";
 
-export const metadata: Metadata = {
+export const siteMetadata: Metadata = {
   metadataBase: new URL(site.baseUrl),
   manifest: "/manifest.webmanifest",
   icons: {
@@ -18,13 +17,17 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export function RootDocument({
   children,
+  locale,
 }: Readonly<{
   children: React.ReactNode;
+  locale: string;
 }>) {
   return (
-    <html lang={getPrimaryLocaleConfig().htmlLang}>
+    <html lang={getLocaleConfig(locale).htmlLang}>
+      {/* Shared ad and site-verification tags must be present in both locale documents. */}
+      {/* eslint-disable-next-line @next/next/no-head-element */}
       <head>
         <meta
           name="google-adsense-account"

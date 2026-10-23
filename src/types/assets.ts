@@ -2,6 +2,7 @@ export interface AssetRecord {
   id: string;
   src: `/${string}`;
   alt: string;
+  localizedAlt?: Record<string, string>;
   width: number;
   height: number;
   sourceUrl?: string;

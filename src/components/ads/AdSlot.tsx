@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { ads, adInventory } from "@/data/ads";
 import { bannerSize, selectAdUnit } from "@/lib/ad-placement";
 import type { AdDevice, AdInventory, AdPlacement } from "@/types/ads";
@@ -31,6 +32,7 @@ function localPreview(): boolean {
 
 /** Render a decided position. Alternatives fit their container; creatives are never CSS-scaled. */
 export function AdSlot({ slot, placement, device }: { slot?: string; placement?: AdPlacement; device?: AdDevice }) {
+  const chinese = usePathname()?.startsWith("/zh-CN") ?? false;
   const slotId = slot ?? (placement ? legacySlots[placement] : "");
   const [host, setHost] = useState<HTMLDivElement | null>(null);
   const [frame, setFrame] = useState<HTMLDivElement | null>(null);
@@ -60,15 +62,15 @@ export function AdSlot({ slot, placement, device }: { slot?: string; placement?:
   return (
     <div ref={setHost} className="ad-position" data-ad-position={slotId}>
       {shown && unit ? (
-        <aside className="ad-slot" aria-label="Advertisement" data-ad-provider="adsterra" data-ad-slot={slotId}
+        <aside className="ad-slot" aria-label={chinese ? "广告" : "Advertisement"} data-ad-provider="adsterra" data-ad-slot={slotId}
           data-ad-unit={unit.key} data-ad-device={measurement?.device} data-ad-size={unit.size ?? unit.type} data-ad-preview={preview ? "true" : undefined}>
           {unit.type === "Smartlink" ? (
-            preview ? <span className="ad-preview-sponsored">Sponsored Link · {slotId}</span> :
-              <a className="sponsored-link" href={code} target="_blank" rel="nofollow sponsored noopener noreferrer">Sponsored Link</a>
+            preview ? <span className="ad-preview-sponsored">{chinese ? "赞助链接" : "Sponsored Link"} · {slotId}</span> :
+              <a className="sponsored-link" href={code} target="_blank" rel="nofollow sponsored noopener noreferrer">{chinese ? "赞助链接" : "Sponsored Link"}</a>
           ) : (
             <div ref={setFrame} className={preview ? "ad-frame ad-preview-frame" : "ad-frame"}
               style={size ? { width: size.width, height: size.height } : preview ? { width: "100%", minHeight: 120 } : undefined}>
-              {preview ? <span>Advertisement · {unit.size ?? "Native"} · {slotId}</span> : null}
+              {preview ? <span>{chinese ? "广告" : "Advertisement"} · {unit.size ?? "Native"} · {slotId}</span> : null}
             </div>
           )}
         </aside>

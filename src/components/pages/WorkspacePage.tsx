@@ -52,7 +52,7 @@ export function WorkspacePage({
         ) : null)}
       </div>
       <ModuleRenderer modules={page.modules} />
-      <RelatedLinks pages={related} />
+      <RelatedLinks pages={related} locale={page.locale} />
       <FAQBlock faqs={faqs} />
     </article>
   );

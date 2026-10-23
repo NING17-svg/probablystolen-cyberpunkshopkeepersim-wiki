@@ -12,6 +12,7 @@ export interface LocaleUiLabels {
   lastReviewed: string;
   onThisPage?: string;
   answerContext?: string;
+  relatedPages?: string;
 }
 
 export interface SiteLocaleConfig {

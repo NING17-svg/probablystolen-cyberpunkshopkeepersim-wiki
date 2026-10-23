@@ -41,7 +41,7 @@ export function HubPage({ page }: { page: PageContent }) {
       </section>
       ) : null}
       <ModuleRenderer modules={page.modules} />
-      <RelatedLinks pages={related} />
+      <RelatedLinks pages={related} locale={page.locale} />
       <FAQBlock faqs={faqs} />
     </article>
   );

@@ -2,10 +2,13 @@ import Link from "next/link";
 import { SearchDialog } from "@/components/layout/SearchDialog";
 import { navigationLabel, primaryNavigation } from "@/data/navigation";
 import { site } from "@/data/site";
+import { getLanguageAlternates, getPageByUrl } from "@/lib/content";
 import { getLocaleUiLabels, localizePath } from "@/lib/localization";
 import { getSearchIndexUrl } from "@/lib/search";
 
-export function Header({ locale }: { locale: string }) {
+export function Header({ locale, currentUrl }: { locale: string; currentUrl: string }) {
+  const currentPage = getPageByUrl(currentUrl);
+  const alternates = currentPage ? getLanguageAlternates(currentPage) : {};
   return (
     <header className="site-header">
       <Link href={localizePath("/", locale)} className="brand">
@@ -14,9 +17,9 @@ export function Header({ locale }: { locale: string }) {
             {site.brandMark}
           </span>
         ) : null}
-        <span>{site.name}</span>
+        <span>{locale === "zh-CN" ? "Probably Stolen 攻略站" : site.name}</span>
       </Link>
-      <nav className="primary-nav" aria-label="Primary navigation">
+      <nav className="primary-nav" aria-label={locale === "zh-CN" ? "主导航" : "Primary navigation"}>
         {primaryNavigation.map((item) => {
           const href = localizePath(item.href, locale);
           if (item.children?.length) {
@@ -36,6 +39,15 @@ export function Header({ locale }: { locale: string }) {
             </Link>
           );
         })}
+      </nav>
+      <nav className="language-switch" aria-label={locale === "zh-CN" ? "切换语言" : "Choose language"}>
+        {site.locales.map((language) => alternates[language.code] ? (
+          <Link key={language.code} href={alternates[language.code]}
+            hrefLang={language.code} lang={language.htmlLang}
+            aria-current={language.code === locale ? "page" : undefined}>
+            {language.label}
+          </Link>
+        ) : null)}
       </nav>
       <SearchDialog
         locale={locale}

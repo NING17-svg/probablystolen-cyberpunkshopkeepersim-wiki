@@ -6,7 +6,7 @@ Use this index to find the current role of each URL before editing. Update it wh
 
 ## Page Inventory
 
-The rows below are the primary-locale baseline for probablystolen-cyberpunkshopkeepersim.wiki (English / US, guide-v4). The primary locale stays on root paths; no secondary locale is configured in this build.
+The rows below are the primary-locale baseline for probablystolen-cyberpunkshopkeepersim.wiki (English / US, guide-v4). The primary locale stays on root paths. Simplified Chinese mirrors all 21 indexable pages under `/zh-CN`.
 
 | URL | File/Route | Type | Primary Keyword | Search Intent | Primary CTA | Internal-Link Role | Notes |
 |---|---|---|---|---|---|---|---|
@@ -36,8 +36,36 @@ The rows below are the primary-locale baseline for probablystolen-cyberpunkshopk
 
 - Home: `src/data/pages/home.ts`.
 - Guide families: `src/data/pages/guides/{start,trade,lines,production}.ts` (one manuscript per page, in the order page-plan.md groups them).
-- Final route inventory: `npm run routes:manifest` (already 21 routes: 1 home + 20 guides).
-- Primary-locale routes use the root path; no secondary locale is configured in `src/data/site.ts` for this build.
+- Final route inventory: `npm run routes:manifest` (42 routes: each of the 21 English pages has a Chinese counterpart).
+- Primary-locale routes use the root path; Chinese routes use `/zh-CN` and `/zh-CN/guides/<slug>`. All Chinese page content is in `src/data/pages/zh-CN.json`; route layouts live under `src/app/(en)` and `src/app/(zh)` so each document has its own HTML language.
+
+## Simplified Chinese Counterparts
+
+The Chinese pages keep the search intent, page type, related-guide role and ad slots of their English counterparts. The locale switch links corresponding pages in both directions; canonical and sitemap entries point to each locale's own URL, with reciprocal language alternates.
+
+| English URL | Chinese URL | Chinese primary answer |
+|---|---|---|
+| `/` | `/zh-CN` | Find a task guide for the storefront run |
+| `/guides/getting-started` | `/zh-CN/guides/getting-started` | First-week opening order |
+| `/guides/starting-professions` | `/zh-CN/guides/starting-professions` | Which opening profession to choose |
+| `/guides/money-and-rent` | `/zh-CN/guides/money-and-rent` | Keep rent funded while earning |
+| `/guides/buy-out-the-shop` | `/zh-CN/guides/buy-out-the-shop` | Fund the shop buyout after rent |
+| `/guides/display-case` | `/zh-CN/guides/display-case` | What to display before opening |
+| `/guides/shop-inventory` | `/zh-CN/guides/shop-inventory` | Store goods and prevent theft |
+| `/guides/spot-fakes` | `/zh-CN/guides/spot-fakes` | Check counterfeit goods |
+| `/guides/underground-market` | `/zh-CN/guides/underground-market` | Enter the market and manage contraband |
+| `/guides/radioactive-waste` | `/zh-CN/guides/radioactive-waste` | Dispose of radioactive waste |
+| `/guides/weapons-dealer` | `/zh-CN/guides/weapons-dealer` | Handle licensing and inspections |
+| `/guides/chemist` | `/zh-CN/guides/chemist` | Weigh production against addiction risk |
+| `/guides/water-merchant` | `/zh-CN/guides/water-merchant` | Test, purify and label water |
+| `/guides/fence` | `/zh-CN/guides/fence` | Manage contraband and searches |
+| `/guides/hydroponic-farmer` | `/zh-CN/guides/hydroponic-farmer` | Keep food production steady |
+| `/guides/crafting-machines` | `/zh-CN/guides/crafting-machines` | Buy machines for the chosen chain |
+| `/guides/production-chains` | `/zh-CN/guides/production-chains` | Compare nightly production chains |
+| `/guides/night-scavenging` | `/zh-CN/guides/night-scavenging` | Judge whether a night trip pays off |
+| `/guides/station-factions` | `/zh-CN/guides/station-factions` | Understand factions and standing |
+| `/guides/spot-augs` | `/zh-CN/guides/spot-augs` | Check Aug clues before acting |
+| `/guides/customer-reactions` | `/zh-CN/guides/customer-reactions` | Choose a response for each customer |
 
 ## Content Clusters
 

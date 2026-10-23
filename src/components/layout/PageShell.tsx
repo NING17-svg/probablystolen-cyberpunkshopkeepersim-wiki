@@ -27,7 +27,7 @@ export function PageShell({
       style={themeStyle(themeConfig)}
       data-locale={locale}
     >
-      <Header locale={locale} />
+      <Header locale={locale} currentUrl={currentUrl} />
       <div className="site-workspace">
         {themeConfig.navigation === "wiki-sidebar" ? <WikiNavigation locale={locale} currentUrl={currentUrl} desktopMinWidth={navigationDesktopMinWidth} /> : null}
         <main lang={localeConfig.htmlLang}>{children}</main>

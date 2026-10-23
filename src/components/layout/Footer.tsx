@@ -6,7 +6,7 @@ import { localizePath } from "@/lib/localization";
 export function Footer({ locale }: { locale: string }) {
   return (
     <footer className="site-footer">
-      <nav aria-label="Footer navigation">
+      <nav aria-label={locale === "zh-CN" ? "页脚导航" : "Footer navigation"}>
         {footerNavigation.map((item) => {
           const href = localizePath(item.href, locale);
           return (

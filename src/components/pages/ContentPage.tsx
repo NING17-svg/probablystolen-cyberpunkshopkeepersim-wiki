@@ -49,7 +49,7 @@ export function ContentPage({ page, themeConfig = theme, adAnchors = [] }: { pag
           <AdModuleSequence modules={page.modules} anchors={adAnchors} />
           <AdSlot slot="guide-before-faq" />
           <FAQBlock faqs={faqs} />
-          <RelatedLinks pages={related} />
+          <RelatedLinks pages={related} locale={page.locale} />
         </div>
         {variant === "reading-right-rail" ? <RightRail page={page} /> : null}
       </div>

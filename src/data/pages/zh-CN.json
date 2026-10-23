@@ -1,0 +1,2854 @@
+[
+  {
+    "id": "zh-CN:home",
+    "translationKey": "home",
+    "locale": "zh-CN",
+    "routeKind": "home",
+    "slug": "",
+    "url": "/zh-CN",
+    "pageType": "home",
+    "presentation": {
+      "shell": "home",
+      "variant": "visual-cover"
+    },
+    "h1": "Probably Stolen 中文攻略",
+    "seoTitle": "Probably Stolen 中文攻略",
+    "metaDescription": "Probably Stolen 中文攻略：从开店第一周到租金、商品、生产、假货、Aug 与派系。",
+    "summary": "Probably Stolen 中文攻略：从开店第一周到租金、商品、生产、假货、Aug 与派系。",
+    "hero": {
+      "eyebrow": "非官方游戏攻略",
+      "subtitle": "在赛博朋克空间站经营一家借贷开出的店铺：交租、进货、布置展示柜、安排夜间生产，并判断每位顾客的交易风险。这里按玩家任务整理了 20 篇攻略。",
+      "ctas": [
+        {
+          "label": "新手攻略：开店第一周怎么过",
+          "href": "/zh-CN/guides/getting-started"
+        },
+        {
+          "label": "怎么识别假货",
+          "href": "/zh-CN/guides/spot-fakes"
+        }
+      ],
+      "assetId": "shop-interior"
+    },
+    "quickAnswer": "",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "start-your-run",
+        "type": "guide-index",
+        "heading": "开始经营",
+        "columns": 1,
+        "groups": [
+          {
+            "title": "先完成第一周，再选择经营方向",
+            "items": [
+              {
+                "label": "开店第一周",
+                "href": "/zh-CN/guides/getting-started",
+                "description": "先布置展示柜、补食品、检查假货并留出租金。"
+              },
+              {
+                "label": "初始职业怎么选",
+                "href": "/zh-CN/guides/starting-professions",
+                "description": "比较农夫、水商、枪匠等开局的收益与风险。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sim-basics",
+        "type": "prose",
+        "heading": "游戏经营基础",
+        "body": "你借钱开了一家空间站店铺，目标是按时交租，并最终攒钱买下店铺。食品货架缺货会减少客流；展示柜则影响当天进店的顾客类型。每天开门前先补货和布置陈列，关门前再决定生产或拾荒。\n\n武器、化学品、水和违禁品分别对应检查、成瘾、责任和搜查风险。选择经营路线时，除了利润，还要看自己能否承担这些后果。"
+      },
+      {
+        "id": "money-rent-buyout",
+        "type": "guide-index",
+        "heading": "资金、租金与买下店铺",
+        "columns": 1,
+        "groups": [
+          {
+            "title": "交租与买店",
+            "items": [
+              {
+                "label": "租金与赚钱",
+                "href": "/zh-CN/guides/money-and-rent",
+                "description": "租金何时到期，怎样避免欠租后客流下滑。"
+              },
+              {
+                "label": "买下店铺",
+                "href": "/zh-CN/guides/buy-out-the-shop",
+                "description": "先保租金，再为买断目标积累现金。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stock-display-trade",
+        "type": "guide-index",
+        "heading": "库存、陈列与交易",
+        "columns": 1,
+        "groups": [
+          {
+            "title": "库存与交易",
+            "items": [
+              {
+                "label": "展示柜",
+                "href": "/zh-CN/guides/display-case",
+                "description": "开门前摆什么，会吸引哪类顾客。"
+              },
+              {
+                "label": "库存与防盗",
+                "href": "/zh-CN/guides/shop-inventory",
+                "description": "区分展示柜、店外柜台和收起的货物。"
+              },
+              {
+                "label": "识别假货",
+                "href": "/zh-CN/guides/spot-fakes",
+                "description": "用放大镜与手册检查标志、封条和颜色。"
+              },
+              {
+                "label": "地下市场",
+                "href": "/zh-CN/guides/underground-market",
+                "description": "许可证、藏货和搜查风险。"
+              },
+              {
+                "label": "放射性废物",
+                "href": "/zh-CN/guides/radioactive-waste",
+                "description": "带去垃圾场处理，或暂时用容器存放。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "product-lines",
+        "type": "guide-index",
+        "heading": "经营路线",
+        "columns": 1,
+        "groups": [
+          {
+            "title": "五种经营路线",
+            "items": [
+              {
+                "label": "武器商",
+                "href": "/zh-CN/guides/weapons-dealer",
+                "description": "办好许可后销售，注意安保检查。"
+              },
+              {
+                "label": "化学商",
+                "href": "/zh-CN/guides/chemist",
+                "description": "比较利润与成瘾顾客的风险。"
+              },
+              {
+                "label": "水商",
+                "href": "/zh-CN/guides/water-merchant",
+                "description": "检测、净化、贴标签与安全存放。"
+              },
+              {
+                "label": "销赃商",
+                "href": "/zh-CN/guides/fence",
+                "description": "从违禁品起步时如何控制搜查风险。"
+              },
+              {
+                "label": "水培农夫",
+                "href": "/zh-CN/guides/hydroponic-farmer",
+                "description": "用食品生产维持稳定客流。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "production-overnight",
+        "type": "guide-index",
+        "heading": "生产与夜间活动",
+        "columns": 1,
+        "groups": [
+          {
+            "title": "生产与拾荒",
+            "items": [
+              {
+                "label": "生产设备",
+                "href": "/zh-CN/guides/crafting-machines",
+                "description": "看设备槽位、电力和购买顺序。"
+              },
+              {
+                "label": "生产链",
+                "href": "/zh-CN/guides/production-chains",
+                "description": "比较各条夜间生产链的原料与产出。"
+              },
+              {
+                "label": "夜间拾荒",
+                "href": "/zh-CN/guides/night-scavenging",
+                "description": "计算受伤和次日迟开门的代价。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trouble-counter",
+        "type": "guide-index",
+        "heading": "柜台上的麻烦",
+        "columns": 1,
+        "groups": [
+          {
+            "title": "派系、Aug 与顾客",
+            "items": [
+              {
+                "label": "空间站派系",
+                "href": "/zh-CN/guides/station-factions",
+                "description": "看交易、举报如何改变声望。"
+              },
+              {
+                "label": "识别 Aug",
+                "href": "/zh-CN/guides/spot-augs",
+                "description": "行动前核对外观和行为线索。"
+              },
+              {
+                "label": "顾客应对",
+                "href": "/zh-CN/guides/customer-reactions",
+                "description": "批准、拒绝、举报或无视的后果。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "stock-display-trade",
+        "slot": "home-topic-break"
+      },
+      {
+        "after": "trouble-counter",
+        "slot": "home-directory-end"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [],
+    "schemaTypes": [
+      "WebSite",
+      "CollectionPage"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:getting-started",
+    "translationKey": "getting-started",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "getting-started",
+    "url": "/zh-CN/guides/getting-started",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 新手攻略：开店第一周怎么过",
+    "seoTitle": "Probably Stolen 新手攻略：开店第一周怎么过",
+    "metaDescription": "第一周先做三件事：开门前布置展示柜，保持食品货架有货，睡前清空室外柜台。这能稳住客流、避免夜间失窃，并帮你留出支付第一笔租金的现金。",
+    "summary": "第一周先做三件事：开门前布置展示柜，保持食品货架有货，睡前清空室外柜台。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "租金与赚钱攻略",
+          "href": "/zh-CN/guides/money-and-rent"
+        }
+      ]
+    },
+    "quickAnswer": "第一周先做三件事：开门前布置展示柜，保持食品货架有货，睡前清空室外柜台。这能稳住客流、避免夜间失窃，并帮你留出支付第一笔租金的现金。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "four-tutorial-beats",
+        "type": "steps",
+        "heading": "教程中的四个要点",
+        "intro": "",
+        "items": [
+          {
+            "title": "保持食品货架有货",
+            "body": "空货架会降低吸引力，进店顾客也会变少。"
+          },
+          {
+            "title": "睡前清空店外柜台",
+            "body": "留在外面的货物过夜可能被盗。"
+          },
+          {
+            "title": "用展示柜筛选顾客",
+            "body": "开门前摆放商品；开门后更改要到次日生效。"
+          },
+          {
+            "title": "检查码头送来的假烟",
+            "body": "用放大镜和手册核对海明威香烟的标志、封条与颜色。"
+          }
+        ],
+        "outro": "教程第一天不能正常使用展示柜；从第二天开始按开门前布置的顺序操作。"
+      },
+      {
+        "id": "stage-the-display-case",
+        "type": "prose",
+        "heading": "开门前布置展示柜",
+        "body": "先补食品货架，再摆展示柜，最后拉起卷帘门。食品和家居用品会吸引不同的顾客，有些陈列会引来卖家以便补货。不要把赃物或违禁品放在公开展示的位置。具体对应关系见[展示柜攻略](/zh-CN/guides/display-case)。"
+      },
+      {
+        "id": "catch-the-first-counterfeit-pack",
+        "type": "prose",
+        "heading": "识别第一包假烟",
+        "body": "对照手册检查海明威香烟包装。封条破损、标志形状错误或颜色不符，都可以作为质疑卖家的证据；确认一处差异后再提出指控。指错会损失声望，漏掉假货并转售也会损害名声。完整检查顺序见[假货攻略](/zh-CN/guides/spot-fakes)。"
+      },
+      {
+        "id": "count-the-rent",
+        "type": "prose",
+        "heading": "先算租金，再算收入",
+        "body": "开局对话把第一笔租金说成约六天后到期；后续仍按周期收取，并会逐渐上涨。欠租会降低吸引力、客流和收入。先卖能确定成交的货，把下一期租金留出来；第一笔租金交清后，再从许可证、生产设备或保险中选一个项目投入。详见[租金攻略](/zh-CN/guides/money-and-rent)。"
+      },
+      {
+        "id": "choose-what-the-night-is-for",
+        "type": "data-table",
+        "heading": "今晚做什么",
+        "intro": "",
+        "columns": [
+          {
+            "key": "choice",
+            "label": "选择"
+          },
+          {
+            "key": "gives",
+            "label": "收益"
+          },
+          {
+            "key": "costs",
+            "label": "代价"
+          }
+        ],
+        "rows": [
+          {
+            "choice": "睡觉",
+            "gives": "第二天按时开店",
+            "costs": "没有额外材料"
+          },
+          {
+            "choice": "生产",
+            "gives": "把现有原料变成可卖商品",
+            "costs": "消耗电力及原料"
+          },
+          {
+            "choice": "去垃圾场拾荒",
+            "gives": "带回废料、模块或工具",
+            "costs": "可能受伤，并影响次日开门"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "first-week-priorities",
+        "type": "steps",
+        "heading": "第一周优先顺序",
+        "intro": "",
+        "items": [
+          {
+            "title": "按时交租",
+            "body": "不要为了高风险批货耗尽租金储备。"
+          },
+          {
+            "title": "优先经营稳定货品",
+            "body": "食品、水和家居用品更适合维持现金流。"
+          },
+          {
+            "title": "检查可疑商品",
+            "body": "付款前核对香烟、封条和真伪声明。"
+          },
+          {
+            "title": "每晚只跑一条生产链",
+            "body": "先确认原料与电力足够。"
+          },
+          {
+            "title": "把盈余留给买店目标",
+            "body": "扩张之前先看下一期租金和买断金额。"
+          }
+        ],
+        "outro": "顾客来店时可以批准、拒绝、举报或无视。通缉犯应先与海报核对；举报虽有赏金，也可能引来报复。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "stage-the-display-case",
+        "slot": "guide-section-break"
+      },
+      {
+        "after": "count-the-rent",
+        "slot": "guide-section-break-2"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:display-case",
+      "zh-CN:money-and-rent",
+      "zh-CN:spot-fakes"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:starting-professions",
+    "translationKey": "starting-professions",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "starting-professions",
+    "url": "/zh-CN/guides/starting-professions",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 初始职业排行与选择",
+    "seoTitle": "Probably Stolen 初始职业排行与选择",
+    "metaDescription": "新手优先选农夫或水商；枪匠次之。化学商和销赃商虽然利润更高，但分别要应对成瘾顾客与违禁品搜查。这个排行比较的是开局安全性，并非后期收益上限。",
+    "summary": "新手优先选农夫或水商；枪匠次之。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "水商攻略：检测、净化与销售",
+          "href": "/zh-CN/guides/water-merchant"
+        }
+      ]
+    },
+    "quickAnswer": "新手优先选农夫或水商；枪匠次之。化学商和销赃商虽然利润更高，但分别要应对成瘾顾客与违禁品搜查。这个排行比较的是开局安全性，并非后期收益上限。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "every-starting-profession-ranked",
+        "type": "data-table",
+        "heading": "初始职业排行",
+        "intro": "",
+        "columns": [
+          {
+            "key": "tier",
+            "label": "等级"
+          },
+          {
+            "key": "profession",
+            "label": "职业"
+          },
+          {
+            "key": "ruin",
+            "label": "主要风险"
+          },
+          {
+            "key": "why",
+            "label": "适合谁"
+          }
+        ],
+        "rows": [
+          {
+            "tier": "S",
+            "profession": "农夫",
+            "ruin": "常规租金和失窃",
+            "why": "食品生产稳定，适合熟悉经营循环。"
+          },
+          {
+            "tier": "S",
+            "profession": "水商",
+            "ruin": "水质责任",
+            "why": "试玩开局有检测、净化工具；按实测水质销售。"
+          },
+          {
+            "tier": "A",
+            "profession": "枪匠",
+            "ruin": "安保检查",
+            "why": "收入稳定，但要管理许可证和陈列风险。"
+          },
+          {
+            "tier": "B",
+            "profession": "化学商",
+            "ruin": "顾客成瘾",
+            "why": "利润较高，问题多发生在顾客关系上。"
+          },
+          {
+            "tier": "B",
+            "profession": "销赃商",
+            "ruin": "违禁品搜查",
+            "why": "需要藏货、贿赂预算和租金缓冲。"
+          },
+          {
+            "tier": "C",
+            "profession": "Rat Wrangler",
+            "ruin": "专门玩法",
+            "why": "更适合熟悉基本经营后尝试。"
+          },
+          {
+            "tier": "挑战",
+            "profession": "赤贫开局",
+            "ruin": "缺少初始资源",
+            "why": "没有库存、设备和现金缓冲。"
+          }
+        ],
+        "outro": "这是按新手容错率排序，不代表后期收益。赤贫开局还有专属通关成就。"
+      },
+      {
+        "id": "four-ruin-types",
+        "type": "steps",
+        "heading": "四类主要经营风险",
+        "intro": "",
+        "items": [
+          {
+            "title": "武器：检查",
+            "body": "销售前确认许可证和改装，见[武器商攻略](/zh-CN/guides/weapons-dealer)。"
+          },
+          {
+            "title": "化学品：成瘾",
+            "body": "利润和问题顾客会一起出现，见[化学商攻略](/zh-CN/guides/chemist)。"
+          },
+          {
+            "title": "水：责任",
+            "body": "检测后按真实水质贴标签，见[水商攻略](/zh-CN/guides/water-merchant)。"
+          },
+          {
+            "title": "违禁品：搜查",
+            "body": "藏货与贿赂都要计入预算，见[销赃商攻略](/zh-CN/guides/fence)。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "the-progression-order",
+        "type": "prose",
+        "heading": "先从哪条路线学起",
+        "body": "第一次开局建议用农夫或水商熟悉补货、交租和夜间生产；掌握现金流后再尝试枪匠，最后挑战化学商、销赃商或赤贫开局。无论选择哪条路线，先确认设备是否能持续供料，详见[生产设备攻略](/zh-CN/guides/crafting-machines)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "four-ruin-types",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:water-merchant",
+      "zh-CN:crafting-machines"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-21"
+  },
+  {
+    "id": "zh-CN:money-and-rent",
+    "translationKey": "money-and-rent",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "money-and-rent",
+    "url": "/zh-CN/guides/money-and-rent",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 租金与赚钱攻略",
+    "seoTitle": "Probably Stolen 租金与赚钱攻略",
+    "metaDescription": "租金按固定周期到期，并会随时间上涨，不会因为本周盈利而减免。先从稳定易卖的货品中留出租金，再考虑设备、许可证或高风险交易；错过一次付款会让客流与收入一起下滑。",
+    "summary": "租金按固定周期到期，并会随时间上涨，不会因为本周盈利而减免。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "怎么买下店铺",
+          "href": "/zh-CN/guides/buy-out-the-shop"
+        }
+      ]
+    },
+    "quickAnswer": "租金按固定周期到期，并会随时间上涨，不会因为本周盈利而减免。先从稳定易卖的货品中留出租金，再考虑设备、许可证或高风险交易；错过一次付款会让客流与收入一起下滑。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "the-weekly-cycle",
+        "type": "prose",
+        "heading": "租金周期与欠租后果",
+        "body": "开局对话把第一笔租金安排在约六天后；以游戏 HUD 的倒计时为准。欠租并非只扣一次钱：店铺吸引力降低后，顾客减少、收入下降，下一期租金更难凑齐。"
+      },
+      {
+        "id": "count-the-rent-first",
+        "type": "steps",
+        "heading": "每周先留出租金",
+        "intro": "",
+        "items": [
+          {
+            "title": "看 HUD 上的到期日和金额",
+            "body": "先算现有现金与确定能卖出的货物。"
+          },
+          {
+            "title": "补食品并布置展示柜",
+            "body": "维持客流，再决定当天希望吸引的顾客。"
+          },
+          {
+            "title": "检查进货真伪",
+            "body": "不要让一批假货吞掉租金。"
+          },
+          {
+            "title": "只安排一项夜间工作",
+            "body": "根据原料、电力和次日开门时间选择生产或拾荒。"
+          },
+          {
+            "title": "把剩余现金留作储备",
+            "body": "再考虑买店、保险和许可证。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "safe-staples-and-punishing-trades",
+        "type": "data-table",
+        "heading": "稳妥货品与高风险交易",
+        "intro": "",
+        "columns": [
+          {
+            "key": "stock",
+            "label": "货品"
+          },
+          {
+            "key": "profile",
+            "label": "风险"
+          },
+          {
+            "key": "why",
+            "label": "原因"
+          }
+        ],
+        "rows": [
+          {
+            "stock": "食品、家居用品、已验真的香烟",
+            "profile": "较低",
+            "why": "有助于维持日常销售。"
+          },
+          {
+            "stock": "葡萄酒、经检测的水",
+            "profile": "较低",
+            "why": "需求较稳定，但仍要核对品质。"
+          },
+          {
+            "stock": "武器",
+            "profile": "较高",
+            "why": "持证交易也可能遭遇检查。"
+          },
+          {
+            "stock": "违禁品",
+            "profile": "很高",
+            "why": "搜查、没收或卖不出去都可能毁掉当期租金。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "run-one-overnight-chain",
+        "type": "prose",
+        "heading": "夜间只运行一条生产链",
+        "body": "设备争用同一晚的时间与电力。先选有原料、有买家的生产链，再为第二条扩张；参看[生产链攻略](/zh-CN/guides/production-chains)。"
+      },
+      {
+        "id": "park-the-surplus-toward-the-buyout",
+        "type": "prose",
+        "heading": "把盈余留给买店",
+        "body": "交租只是保持营业，不会自动减少买店所需金额。把租金外的盈余留作买断储备，接近 HUD 显示的目标时暂停买设备；详见[买下店铺攻略](/zh-CN/guides/buy-out-the-shop)。"
+      },
+      {
+        "id": "the-same-credits-are-also-milestones",
+        "type": "prose",
+        "heading": "信用点储备也对应成就",
+        "body": "Comfortably Afloat 与 Swimming in Credits 分别要求在新的一天开始时，估计总财富超过 10,000 与 100,000 信用点。销售要在前一天完成，且先保证租金安全。成就与买店节奏见[里程碑表](/zh-CN/guides/buy-out-the-shop)。"
+      },
+      {
+        "id": "costs-that-are-not-rent",
+        "type": "entity-grid",
+        "heading": "租金之外还要算哪些成本",
+        "items": [
+          { "title": "交易许可证", "summary": "早期版本解锁地下市场商品通常约需 1,500 信用点；以当前游戏内价格为准。" },
+          { "title": "夜间电费", "summary": "设备运行会持续耗电。Wilds 网络的非法接电升级可省电费，但会带来派系人情债。" },
+          { "title": "黑市声望", "summary": "声望跌到 −40 是已记录的明显恶化节点，不能只按商品利润衡量交易。" },
+          { "title": "乔·怀尔德的保险", "summary": "保险可能帮你找回失窃物品，却补不回因其他问题流失的顾客。" }
+        ],
+        "outro": "先学会留租金，再尝试高风险拾荒；先学会验货，再给贵重商品定价。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "count-the-rent-first",
+        "slot": "guide-section-break"
+      },
+      {
+        "after": "safe-staples-and-punishing-trades",
+        "slot": "guide-section-break-2"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:production-chains",
+      "zh-CN:buy-out-the-shop"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-21"
+  },
+  {
+    "id": "zh-CN:buy-out-the-shop",
+    "translationKey": "buy-out-the-shop",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "buy-out-the-shop",
+    "url": "/zh-CN/guides/buy-out-the-shop",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 怎么买下店铺",
+    "seoTitle": "Probably Stolen 怎么买下店铺",
+    "metaDescription": "买下店铺是这条经营线的目标，和每期支付租金是两件事。先保证租金，再积累买断资金；所需金额以当前游戏 HUD 显示为准，不要把早期测试版的数字当成固定目标。",
+    "summary": "买下店铺是这条经营线的目标，和每期支付租金是两件事。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "租金与赚钱攻略",
+          "href": "/zh-CN/guides/money-and-rent"
+        }
+      ]
+    },
+    "quickAnswer": "买下店铺是这条经营线的目标，和每期支付租金是两件事。先保证租金，再积累买断资金；所需金额以当前游戏 HUD 显示为准，不要把早期测试版的数字当成固定目标。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "how-the-mortgage-works",
+        "type": "prose",
+        "heading": "买店目标与租金分开计算",
+        "body": "按期交租不会直接推进买断。先维持营业，再积累现金，直到达到当前 HUD 显示的买店要求。早期测试版曾出现约 12,000 信用点的数字，但不应把它当成现行固定价格。"
+      },
+      {
+        "id": "keep-rent-paid-while-the-reserve-builds",
+        "type": "prose",
+        "heading": "攒钱时仍要按期交租",
+        "body": "一旦欠租，吸引力、客流和收入会连锁下滑，已经攒下的钱也可能被迫填缺口。把下一期租金和防盗开支留出来，再计算距离买店还差多少。详见[租金攻略](/zh-CN/guides/money-and-rent)。"
+      },
+      {
+        "id": "fund-these-first",
+        "type": "steps",
+        "heading": "买店前的资金顺序",
+        "intro": "",
+        "items": [
+          {
+            "title": "先保住租金和易失窃货物",
+            "body": "需要时考虑乔·怀尔德的保险；保险能追回失窃物品，不能补回流失顾客。"
+          },
+          {
+            "title": "维持食品与展示柜",
+            "body": "保持吸引力和能持续成交的货品。"
+          },
+          {
+            "title": "只购买能回本的生产设备",
+            "body": "熔炉、发酵或净水设备都要有原料、电力和销路。"
+          },
+          {
+            "title": "许可证和拾荒按需投入",
+            "body": "别让可选项目耗尽买店储备。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "stop-expanding-when-you-get-close",
+        "type": "steps",
+        "heading": "接近目标时停止扩张",
+        "intro": "",
+        "items": [
+          {
+            "title": "暂停新增设备和高风险批货",
+            "body": "优先保留现金。"
+          },
+          {
+            "title": "卖掉闲置库存",
+            "body": "按[库存攻略](/zh-CN/guides/shop-inventory)确认哪些货可以安全出售。"
+          },
+          {
+            "title": "继续补食品并留租金",
+            "body": "等待买店时也要保持客流和现金安全。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "achievement-milestones",
+        "type": "data-table",
+        "heading": "买店途中的成就里程碑",
+        "intro": "",
+        "columns": [
+          {
+            "key": "milestone",
+            "label": "成就"
+          },
+          {
+            "key": "needs",
+            "label": "条件"
+          },
+          {
+            "key": "pace",
+            "label": "安排"
+          }
+        ],
+        "rows": [
+          {
+            "milestone": "Keys to the Kingdom",
+            "needs": "取得店铺契约",
+            "pace": "达到 HUD 要求后买下店铺。"
+          },
+          {
+            "milestone": "Prodigious",
+            "needs": "在第 50 天前取得契约",
+            "pace": "少做不必要的扩张。"
+          },
+          {
+            "milestone": "Comfortably Afloat",
+            "needs": "新的一天开始时估计总财富超过 10,000 信用点",
+            "pace": "前一天完成销售。"
+          },
+          {
+            "milestone": "Swimming in Credits",
+            "needs": "新的一天开始时估计总财富超过 100,000 信用点",
+            "pace": "保住储备，避免高风险损失。"
+          },
+          {
+            "milestone": "Shiny",
+            "needs": "新的一天开始时店铺吸引力达到 1,000",
+            "pace": "维持食品与陈列。"
+          },
+          {
+            "milestone": "Diplomatic",
+            "needs": "任一派系声望达到最高",
+            "pace": "集中经营一个派系，见[派系攻略](/zh-CN/guides/station-factions)。"
+          },
+          {
+            "milestone": "From Nothing",
+            "needs": "从赤贫开局通关",
+            "pace": "先看[初始职业攻略](/zh-CN/guides/starting-professions)。"
+          }
+        ],
+        "outro": ""
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "keep-rent-paid-while-the-reserve-builds",
+        "slot": "guide-section-break"
+      },
+      {
+        "after": "fund-these-first",
+        "slot": "guide-section-break-2"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:money-and-rent",
+      "zh-CN:shop-inventory",
+      "zh-CN:station-factions"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-21"
+  },
+  {
+    "id": "zh-CN:display-case",
+    "translationKey": "display-case",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "display-case",
+    "url": "/zh-CN/guides/display-case",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 展示柜怎么摆",
+    "seoTitle": "Probably Stolen 展示柜怎么摆",
+    "metaDescription": "展示柜会影响当天进店的顾客类型。每天开门前摆好想吸引顾客的商品；拉起卷帘门后再换陈列，效果要到第二天才会生效。违禁品不要放在展示柜里。",
+    "summary": "展示柜会影响当天进店的顾客类型。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "店铺库存与防盗攻略",
+          "href": "/zh-CN/guides/shop-inventory"
+        }
+      ]
+    },
+    "quickAnswer": "展示柜会影响当天进店的顾客类型。每天开门前摆好想吸引顾客的商品；拉起卷帘门后再换陈列，效果要到第二天才会生效。违禁品不要放在展示柜里。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "buyer-bait-vs-seller-bait",
+        "type": "data-table",
+        "heading": "陈列什么，会吸引谁",
+        "intro": "",
+        "columns": [
+          {
+            "key": "staged",
+            "label": "陈列"
+          },
+          {
+            "key": "pulls",
+            "label": "可能吸引的顾客"
+          }
+        ],
+        "rows": [
+          {
+            "staged": "食品或浆果",
+            "pulls": "食品买家和补货卖家"
+          },
+          {
+            "staged": "家居用品",
+            "pulls": "家庭用品顾客"
+          },
+          {
+            "staged": "水壶等水相关物品",
+            "pulls": "寻找水的顾客"
+          },
+          {
+            "staged": "武器或五金",
+            "pulls": "寻求武器与修理品的顾客"
+          },
+          {
+            "staged": "香烟",
+            "pulls": "香烟卖家，包括可能带来假货的人"
+          },
+          {
+            "staged": "霓虹道具",
+            "pulls": "可能带来葡萄、容器或废料的卖家"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "the-case-is-a-filter",
+        "type": "prose",
+        "heading": "展示柜筛选客流，食品货架维持吸引力",
+        "body": "每天开门前摆好展示柜，然后拉起卷帘门；开门后更换的陈列要到次日生效。展示柜和食品货架作用不同：前者影响顾客类型，后者缺货会降低总体客流。货物实际存放位置见[库存攻略](/zh-CN/guides/shop-inventory)。"
+      },
+      {
+        "id": "keep-stolen-goods-concealed",
+        "type": "prose",
+        "heading": "不要公开陈列赃物",
+        "body": "违禁品和赃物放在公开位置会招来检查。若安保可能上门，开门前先移入隐蔽存放处。48.3.12 版本已修掉“先展示、检查前藏货来刷声望”的旧做法；许可与搜查风险见[地下市场攻略](/zh-CN/guides/underground-market)。"
+      },
+      {
+        "id": "two-patch-changes",
+        "type": "prose",
+        "heading": "两个需要留意的版本改动",
+        "body": "开启教程时，48.3.10 版本会在第一天禁用展示柜，避免打乱导师任务；正常使用从第二天开始。48.3.12 版本修正了上面提到的违禁品陈列漏洞。展示柜容量、槽位和扩建费用可能随版本变化，具体数值以当前游戏 HUD 为准。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "the-case-is-a-filter",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:shop-inventory",
+      "zh-CN:underground-market"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:shop-inventory",
+    "translationKey": "shop-inventory",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "shop-inventory",
+    "url": "/zh-CN/guides/shop-inventory",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 店铺库存与防盗攻略",
+    "seoTitle": "Probably Stolen 店铺库存与防盗攻略",
+    "metaDescription": "店内展示柜、室外柜台和收起的散货是三个不同的存放位置。展示柜用于公开陈列；室外柜台上的货物过夜可能被偷。关门前清空室外柜台，并把不该公开展示的货品藏好。",
+    "summary": "店内展示柜、室外柜台和收起的散货是三个不同的存放位置。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "展示柜怎么摆",
+          "href": "/zh-CN/guides/display-case"
+        }
+      ]
+    },
+    "quickAnswer": "店内展示柜、室外柜台和收起的散货是三个不同的存放位置。展示柜用于公开陈列；室外柜台上的货物过夜可能被偷。关门前清空室外柜台，并把不该公开展示的货品藏好。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "three-places-stock-lives",
+        "type": "data-table",
+        "heading": "库存主要放在哪里",
+        "intro": "",
+        "columns": [
+          {
+            "key": "surface",
+            "label": "位置"
+          },
+          {
+            "key": "does",
+            "label": "用途"
+          },
+          {
+            "key": "risk",
+            "label": "过夜风险"
+          }
+        ],
+        "rows": [
+          {
+            "surface": "展示柜",
+            "does": "公开陈列并影响进店顾客",
+            "risk": "陈列违禁品会增加检查风险"
+          },
+          {
+            "surface": "店外柜台",
+            "does": "额外摆货位置",
+            "risk": "高；睡前应清空"
+          },
+          {
+            "surface": "收起的散货",
+            "does": "未公开陈列的库存",
+            "risk": "仍要防盗"
+          },
+          {
+            "surface": "隐蔽存放处",
+            "does": "藏匿赃物或违禁品",
+            "risk": "避免公开暴露，但不能代替合法经营"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "clear-the-outside-counter",
+        "type": "steps",
+        "heading": "关店前的防盗清单",
+        "intro": "",
+        "items": [
+          {
+            "title": "卖掉或搬走店外柜台货物",
+            "body": "不要留到第二天早上。"
+          },
+          {
+            "title": "把散货收好",
+            "body": "避免放在容易被带走的位置。"
+          },
+          {
+            "title": "把违禁品藏起来",
+            "body": "不要放在展示柜等公开位置。"
+          },
+          {
+            "title": "按需购买保险",
+            "body": "乔·怀尔德的保险能补回失窃货物，但补不回错失的顾客。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "concealment-is-a-requirement",
+        "type": "prose",
+        "heading": "藏货不能用来刷声望",
+        "body": "48.3.12 版本修掉了检查前临时藏起违禁品来取得安保声望的做法。要把隐藏当作风险控制，不要把它当作获利技巧。"
+      },
+      {
+        "id": "price-against-the-estimated-value",
+        "type": "prose",
+        "heading": "按估值判断售价和真伪",
+        "body": "先看游戏显示的估计价值，再决定是否购买和定价。假货估值通常较低，但估值不能代替检查；遇到可疑商品，按[假货攻略](/zh-CN/guides/spot-fakes)核对标志、封条与颜色。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "clear-the-outside-counter",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:display-case",
+      "zh-CN:spot-fakes"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:spot-fakes",
+    "translationKey": "spot-fakes",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "spot-fakes",
+    "url": "/zh-CN/guides/spot-fakes",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 怎么识别假货",
+    "seoTitle": "Probably Stolen 怎么识别假货",
+    "metaDescription": "用放大镜查看这批货，对照手册检查标志、封条与颜色。只要发现一处确凿不符，就可以向卖家指出问题并压低价格；误判则会损失声望。",
+    "summary": "用放大镜查看这批货，对照手册检查标志、封条与颜色。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "assetId": "counterfeit-check",
+      "ctas": [
+        {
+          "label": "地下市场与违禁品攻略",
+          "href": "/zh-CN/guides/underground-market"
+        }
+      ]
+    },
+    "quickAnswer": "用放大镜查看这批货，对照手册检查标志、封条与颜色。只要发现一处确凿不符，就可以向卖家指出问题并压低价格；误判则会损失声望。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "the-three-checks",
+        "type": "steps",
+        "heading": "用放大镜和手册做三项检查",
+        "intro": "",
+        "items": [
+          {
+            "title": "用放大镜查看货品",
+            "body": "先看包装或物品的实际细节。"
+          },
+          {
+            "title": "打开对应手册",
+            "body": "海明威香烟有真伪对照和颜色检查信息。"
+          },
+          {
+            "title": "核对标志、封条与颜色",
+            "body": "发现一处确凿差异再提出质疑。"
+          },
+          {
+            "title": "不确定时可以拒绝交易",
+            "body": "不要凭猜测指控卖家。"
+          }
+        ],
+        "outro": "水质和稀有商品还要使用各自的检测或估值工具；“是赃物”和“是假货”是两种不同问题。"
+      },
+      {
+        "id": "four-ways-to-answer-a-fake",
+        "type": "data-table",
+        "heading": "发现问题后怎么回应",
+        "intro": "",
+        "columns": [
+          {
+            "key": "response",
+            "label": "做法"
+          },
+          {
+            "key": "costs",
+            "label": "代价"
+          },
+          {
+            "key": "when",
+            "label": "适用情况"
+          }
+        ],
+        "rows": [
+          {
+            "response": "指出假货并要求降价",
+            "costs": "指错会损失声望",
+            "when": "已有明确证据时"
+          },
+          {
+            "response": "拒绝这批货",
+            "costs": "放弃潜在利润",
+            "when": "没有证据或价格不合适时"
+          },
+          {
+            "response": "照价购买",
+            "costs": "可能压住租金现金",
+            "when": "确认仍有转售价值时"
+          },
+          {
+            "response": "重新贴标",
+            "costs": "有违法与藏货风险",
+            "when": "已具备设备、藏货处和风险预算时"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "why-fakes-show-up-at-all",
+        "type": "prose",
+        "heading": "假货为什么会进店",
+        "body": "展示柜中的香烟会吸引香烟卖家，也可能把码头假货带到柜台。即使没有主动寻找，假货仍会随进货出现；买入或转售前应检查。如何布置陈列见[展示柜攻略](/zh-CN/guides/display-case)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "four-ways-to-answer-a-fake",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:display-case",
+      "zh-CN:underground-market"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:underground-market",
+    "translationKey": "underground-market",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "underground-market",
+    "url": "/zh-CN/guides/underground-market",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 地下市场与违禁品攻略",
+    "seoTitle": "Probably Stolen 地下市场与违禁品攻略",
+    "metaDescription": "地下市场需要相应许可证。早期测试版本的交易许可约需 1,500 信用点，实际价格以游戏内菜单为准。先留足租金，再购买许可或违禁品，并在付款前核算藏货、搜查和转售风险。",
+    "summary": "地下市场需要相应许可证。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "assetId": "wilds-network",
+      "ctas": [
+        {
+          "label": "销赃商攻略：违禁品与搜查",
+          "href": "/zh-CN/guides/fence"
+        }
+      ]
+    },
+    "quickAnswer": "地下市场需要相应许可证。早期测试版本的交易许可约需 1,500 信用点，实际价格以游戏内菜单为准。先留足租金，再购买许可或违禁品，并在付款前核算藏货、搜查和转售风险。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "how-access-works",
+        "type": "prose",
+        "heading": "地下市场如何开放",
+        "body": "地下交易依赖相应许可证。查看当前游戏内菜单确认可买的许可、价格与解锁条件；早期测试中交易许可约需 1,500 信用点，不能当成固定现价。销赃商与违禁品交易关系最直接。"
+      },
+      {
+        "id": "licences-are-bought-from-surplus",
+        "type": "steps",
+        "heading": "许可只用租金外的盈余购买",
+        "intro": "",
+        "items": [
+          {
+            "title": "先留足下一期租金",
+            "body": "许可不能代替可稳定出售的货物。"
+          },
+          {
+            "title": "确认许可对应的交易",
+            "body": "不要为了暂时用不上的入口耗尽现金。"
+          },
+          {
+            "title": "把搜查与贿赂计入成本",
+            "body": "有许可证也不代表可以公开摆放违禁品。"
+          }
+        ],
+        "outro": "从销赃商开局的具体风险见[销赃商攻略](/zh-CN/guides/fence)。"
+      },
+      {
+        "id": "five-point-test",
+        "type": "steps",
+        "heading": "买灰市货前核对五件事",
+        "intro": "",
+        "items": [
+          {
+            "title": "最坏情况仍能交租",
+            "body": "把没收或卖不掉的损失算进去。"
+          },
+          {
+            "title": "付款前可以检查货品",
+            "body": "先辨认真伪与来源。"
+          },
+          {
+            "title": "有安全的存放位置",
+            "body": "不要把违禁品放到展示柜或店外柜台。"
+          },
+          {
+            "title": "负担得起贿赂或搜查损失",
+            "body": "别把全部储备用作一笔交易。"
+          },
+          {
+            "title": "没有尚未解决的搜查风险",
+            "body": "风险叠加时先暂停进货。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "keep-stolen-goods-concealed",
+        "type": "prose",
+        "heading": "把赃物移入隐蔽存放处",
+        "body": "开门前展示合法商品，违禁品则应移入隐蔽存放处。过夜不要放在店外柜台；乔·怀尔德的防盗保险也不能承保违禁品搜查。各存放位置见[库存攻略](/zh-CN/guides/shop-inventory)。"
+      },
+      {
+        "id": "reputation-cuts-both-ways",
+        "type": "prose",
+        "heading": "声望有收益，也有代价",
+        "body": "黑市声望可能开放特殊交易，但与安保的关系也会受影响。对每位顾客的批准、拒绝、举报和无视都会改变后续局面；不要把 Aug 识别与违禁品交易混为一谈。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "licences-are-bought-from-surplus",
+        "slot": "guide-section-break"
+      },
+      {
+        "after": "keep-stolen-goods-concealed",
+        "slot": "guide-section-break-2"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:fence",
+      "zh-CN:shop-inventory"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:radioactive-waste",
+    "translationKey": "radioactive-waste",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "radioactive-waste",
+    "url": "/zh-CN/guides/radioactive-waste",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 放射性废物怎么处理",
+    "seoTitle": "Probably Stolen 放射性废物怎么处理",
+    "metaDescription": "放射性废物会占用库存空间。通常可把它装进背包，在夜间拾荒时带到垃圾场完成交接；如果暂时去不了，先放进合适容器，不要把它当作会自动消失的事件物品。",
+    "summary": "放射性废物会占用库存空间。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "夜间拾荒攻略",
+          "href": "/zh-CN/guides/night-scavenging"
+        }
+      ]
+    },
+    "quickAnswer": "放射性废物会占用库存空间。通常可把它装进背包，在夜间拾荒时带到垃圾场完成交接；如果暂时去不了，先放进合适容器，不要把它当作会自动消失的事件物品。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "the-normal-route",
+        "type": "steps",
+        "heading": "通常的处置路线",
+        "intro": "",
+        "items": [
+          {
+            "title": "把废物装进背包",
+            "body": "出发前确认仍有携带空间。"
+          },
+          {
+            "title": "夜间前往垃圾场",
+            "body": "与普通拾荒行程共用出行机会。"
+          },
+          {
+            "title": "使用现场交接或丢弃交互",
+            "body": "完成后重新检查库存，确认物品已离开。"
+          }
+        ],
+        "outro": "出行可能受伤并影响第二天开门；具体代价见[夜间拾荒攻略](/zh-CN/guides/night-scavenging)。"
+      },
+      {
+        "id": "the-container-fallback",
+        "type": "steps",
+        "heading": "暂时无法跑垃圾场时",
+        "intro": "",
+        "items": [
+          {
+            "title": "找一个可以舍弃的容器",
+            "body": "玩家报告使用过空置安保箱。"
+          },
+          {
+            "title": "把废物放入容器",
+            "body": "不要继续占用常用销售位置。"
+          },
+          {
+            "title": "连容器一起处理",
+            "body": "这会损失容器，是有成本的后备办法。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "what-does-not-clear-it",
+        "type": "prose",
+        "heading": "不要依赖这些办法",
+        "body": "把废物交给安保部门并非可靠处置路线；玩家报告过对方生气而不接收。也没有证实能把废物自动转化为能源的设备。若要出售，先把它当成有风险的尝试，而不是必定可完成的解决方案。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "the-container-fallback",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:night-scavenging"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:weapons-dealer",
+    "translationKey": "weapons-dealer",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "weapons-dealer",
+    "url": "/zh-CN/guides/weapons-dealer",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 武器商攻略：许可证与检查",
+    "seoTitle": "Probably Stolen 武器商攻略：许可证与检查",
+    "metaDescription": "经营武器先办好许可并完成必要改装，再考虑销售。即使持有许可，武器交易也会引来安保检查；把无证武器摆进展示柜尤其危险。",
+    "summary": "经营武器先办好许可并完成必要改装，再考虑销售。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "生产设备与电力攻略",
+          "href": "/zh-CN/guides/crafting-machines"
+        }
+      ]
+    },
+    "quickAnswer": "经营武器先办好许可并完成必要改装，再考虑销售。即使持有许可，武器交易也会引来安保检查；把无证武器摆进展示柜尤其危险。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "permits-first",
+        "type": "steps",
+        "heading": "先办许可，再卖武器",
+        "intro": "",
+        "items": [
+          {
+            "title": "确认许可证",
+            "body": "早期测试中武器交易需要一级许可。"
+          },
+          {
+            "title": "完成必要改装",
+            "body": "合法出售前先满足对应条件。"
+          },
+          {
+            "title": "检查公开陈列",
+            "body": "不要把无证武器摆进展示柜。"
+          },
+          {
+            "title": "另留检查预算",
+            "body": "持证交易仍可能受到安保检查。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "why-an-a-tier-start",
+        "type": "data-table",
+        "heading": "为什么枪匠排在 A 级",
+        "intro": "",
+        "columns": [
+          {
+            "key": "aspect",
+            "label": "项目"
+          },
+          {
+            "key": "means",
+            "label": "影响"
+          }
+        ],
+        "rows": [
+          {
+            "aspect": "收入",
+            "means": "武器与定制订单能提供较稳定的销售。"
+          },
+          {
+            "aspect": "风险",
+            "means": "安保检查持续存在。"
+          },
+          {
+            "aspect": "开局要求",
+            "means": "要管理许可证、改装和陈列。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "hardware-bait-concentrates-exposure",
+        "type": "prose",
+        "heading": "展示武器会增加暴露",
+        "body": "武器或五金陈列能吸引相关顾客，也会让检查风险更集中。展示柜在开门时确定当天客流，如何搭配其他货品见[展示柜攻略](/zh-CN/guides/display-case)。"
+      },
+      {
+        "id": "the-furnace-still-matters",
+        "type": "prose",
+        "heading": "熔炉仍是有用的设备",
+        "body": "金属与废料可以用于生产锭和武器相关改装。购买前核对夜间电力、原料和设备槽位，见[生产设备攻略](/zh-CN/guides/crafting-machines)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "why-an-a-tier-start",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:crafting-machines",
+      "zh-CN:display-case"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:chemist",
+    "translationKey": "chemist",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "chemist",
+    "url": "/zh-CN/guides/chemist",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 化学商攻略：生产与成瘾风险",
+    "seoTitle": "Probably Stolen 化学商攻略：生产与成瘾风险",
+    "metaDescription": "化学品的主要风险是顾客成瘾，而不是违禁品搜查。配方有较高利润，但也更容易招来问题顾客；开局先选一条能稳定供料的生产链。",
+    "summary": "化学品的主要风险是顾客成瘾，而不是违禁品搜查。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "生产设备与电力攻略",
+          "href": "/zh-CN/guides/crafting-machines"
+        }
+      ]
+    },
+    "quickAnswer": "化学品的主要风险是顾客成瘾，而不是违禁品搜查。配方有较高利润，但也更容易招来问题顾客；开局先选一条能稳定供料的生产链。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "the-addiction-trade-off",
+        "type": "steps",
+        "heading": "化学商的利润与风险",
+        "intro": "",
+        "items": [
+          {
+            "title": "先取得配方和设备",
+            "body": "不要把尚无法生产的高利润当成现款。"
+          },
+          {
+            "title": "留意顾客成瘾",
+            "body": "问题往往以反复上门的顾客出现，而非一次搜查。"
+          },
+          {
+            "title": "分开看利润与声望",
+            "body": "销售增长不等于经营更安全。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "four-machines-behind-the-line",
+        "type": "data-table",
+        "heading": "这条路线涉及的设备",
+        "intro": "",
+        "columns": [
+          {
+            "key": "machine",
+            "label": "设备"
+          },
+          {
+            "key": "slots",
+            "label": "主要用途或槽位"
+          }
+        ],
+        "rows": [
+          {
+            "machine": "化学整理机",
+            "slots": "化学模块、容器、产物槽位与配方控制。"
+          },
+          {
+            "machine": "蒸发器",
+            "slots": "电池、模块、容器和蒸馏产物槽位。"
+          },
+          {
+            "machine": "加热板",
+            "slots": "化学模块与温度设置。"
+          },
+          {
+            "machine": "密码解密器",
+            "slots": "电力、模块、芯片及输入输出槽位。"
+          }
+        ],
+        "outro": "实际可买设备和槽位以当前游戏面板为准；详见[生产设备攻略](/zh-CN/guides/crafting-machines)。"
+      },
+      {
+        "id": "run-one-chain-you-can-feed",
+        "type": "prose",
+        "heading": "先跑一条能持续供料的生产链",
+        "body": "每晚的时间、电力和能量电池有限。先确认一套配方所需原料与机器，再添第二套；不同生产链的投入产出见[生产链攻略](/zh-CN/guides/production-chains)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "four-machines-behind-the-line",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:crafting-machines",
+      "zh-CN:production-chains"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:water-merchant",
+    "translationKey": "water-merchant",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "water-merchant",
+    "url": "/zh-CN/guides/water-merchant",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 水商攻略：检测、净化与销售",
+    "seoTitle": "Probably Stolen 水商攻略：检测、净化与销售",
+    "metaDescription": "水商开局相对稳妥，试玩版提供了检测和净化工具，但错误标注会带来责任风险。柜台顺序是辨认水源、检测、过滤或净化、按实测结果贴标签，最后把水桶妥善收好。",
+    "summary": "水商开局相对稳妥，试玩版提供了检测和净化工具，但错误标注会带来责任风险。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "生产链攻略：每台设备产出什么",
+          "href": "/zh-CN/guides/production-chains"
+        }
+      ]
+    },
+    "quickAnswer": "水商开局相对稳妥，试玩版提供了检测和净化工具，但错误标注会带来责任风险。柜台顺序是辨认水源、检测、过滤或净化、按实测结果贴标签，最后把水桶妥善收好。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "the-counter-order",
+        "type": "steps",
+        "heading": "从检测到上架的柜台顺序",
+        "intro": "",
+        "items": [
+          {
+            "title": "辨认水源和容器",
+            "body": "空水桶本身不能当作已检测产品。"
+          },
+          {
+            "title": "用检测工具测水质",
+            "body": "先取得读数，再决定如何处理。"
+          },
+          {
+            "title": "过滤或净化",
+            "body": "不合格的水不要直接贴优质标签。"
+          },
+          {
+            "title": "按实测结果贴标",
+            "body": "蓝红贴标机只能标示真实测到的品质。"
+          },
+          {
+            "title": "收好成品",
+            "body": "过夜不要留在店外柜台。"
+          }
+        ],
+        "outro": "虚报水质可能伤害顾客并引来责任问题；试玩版水商开局自带检测和净化工具。"
+      },
+      {
+        "id": "grades-and-their-risks",
+        "type": "data-table",
+        "heading": "水质与销售风险",
+        "intro": "",
+        "columns": [
+          {
+            "key": "grade",
+            "label": "状态"
+          },
+          {
+            "key": "means",
+            "label": "该怎么做"
+          }
+        ],
+        "rows": [
+          {
+            "grade": "未经检测",
+            "means": "不能当作安全饮用水出售。"
+          },
+          {
+            "grade": "合格水",
+            "means": "保留读数，并按实际品质标注。"
+          },
+          {
+            "grade": "污染或异常读数",
+            "means": "先净化或放弃销售，不要赌顾客不会发现。"
+          }
+        ],
+        "outro": "水质名称、价格和纯度数字可能随版本变化，以当前游戏显示为准。"
+      },
+      {
+        "id": "equipment-on-the-line",
+        "type": "prose",
+        "heading": "需要哪些设备",
+        "body": "检测工具、净水器、贴标机、瓶子打印机和杰克逊博士的工具箱共同支撑水商路线。Wild Network 的低价供水设施可以补充原水，但出售前仍要检测。设备取得顺序见[生产设备攻略](/zh-CN/guides/crafting-machines)。"
+      },
+      {
+        "id": "demand-moves-the-price",
+        "type": "prose",
+        "heading": "需求上涨不等于可以跳过检测",
+        "body": "缺水传闻会提高经过检测的水的需求；同一时期出售未检测水，责任风险也会上升。先保证品质，再考虑价格与产量。净化和装瓶流程见[生产链攻略](/zh-CN/guides/production-chains)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "grades-and-their-risks",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:production-chains",
+      "zh-CN:crafting-machines"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:fence",
+    "translationKey": "fence",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "fence",
+    "url": "/zh-CN/guides/fence",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 销赃商攻略：违禁品与搜查",
+    "seoTitle": "Probably Stolen 销赃商攻略：违禁品与搜查",
+    "metaDescription": "销赃商从违禁品交易起步，利润和执法压力会同时到来。先准备藏货位置和租金储备，再衡量贿赂、搜查和转售成本；这也是它不适合新手冲高利润的原因。",
+    "summary": "销赃商从违禁品交易起步，利润和执法压力会同时到来。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "地下市场与违禁品攻略",
+          "href": "/zh-CN/guides/underground-market"
+        }
+      ]
+    },
+    "quickAnswer": "销赃商从违禁品交易起步，利润和执法压力会同时到来。先准备藏货位置和租金储备，再衡量贿赂、搜查和转售成本；这也是它不适合新手冲高利润的原因。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "contraband-and-raids",
+        "type": "data-table",
+        "heading": "销赃商开局需要准备什么",
+        "intro": "",
+        "columns": [
+          {
+            "key": "requirement",
+            "label": "准备"
+          },
+          {
+            "key": "why",
+            "label": "原因"
+          }
+        ],
+        "rows": [
+          {
+            "requirement": "隐蔽存放处",
+            "why": "违禁品不能长期摆在公开展示位置。"
+          },
+          {
+            "requirement": "租金以外的风险预算",
+            "why": "搜查、没收和贿赂都可能消耗现金。"
+          },
+          {
+            "requirement": "相应许可证",
+            "why": "地下市场与部分交易需要解锁。"
+          },
+          {
+            "requirement": "稳定的普通货品",
+            "why": "不能只靠一次高利润交易交租。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "the-working-procedure",
+        "type": "steps",
+        "heading": "每天开店前怎么做",
+        "intro": "",
+        "items": [
+          {
+            "title": "用合法货品布置展示柜",
+            "body": "先保证正常客流。"
+          },
+          {
+            "title": "把违禁品移入隐蔽存放处",
+            "body": "不要等检查员到来才临时搬货。"
+          },
+          {
+            "title": "付款前检查灰市批货",
+            "body": "辨认真伪、价格和转售可能性。"
+          },
+          {
+            "title": "睡前清空店外柜台",
+            "body": "公开摆货会增加失窃和暴露风险。"
+          }
+        ],
+        "outro": "许可与购买判断见[地下市场攻略](/zh-CN/guides/underground-market)，存放位置见[库存攻略](/zh-CN/guides/shop-inventory)。"
+      },
+      {
+        "id": "what-changed-in-48-3-12",
+        "type": "prose",
+        "heading": "48.3.12 版本修掉了旧的刷声望做法",
+        "body": "过去短暂展示违禁品、检查前再藏起来的做法已被修正。藏货是为了降低搜查风险，不能再把它当成增加安保声望的方法。"
+      },
+      {
+        "id": "what-insurance-does-not-cover",
+        "type": "prose",
+        "heading": "防盗保险不能替代搜查预算",
+        "body": "乔·怀尔德的保险针对入室盗窃，不承保违禁品遭查。单独预留租金、交易成本与搜查损失；黑市声望能解锁机会，也可能加大与其他派系的冲突。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "the-working-procedure",
+        "slot": "guide-section-break"
+      },
+      {
+        "after": "what-changed-in-48-3-12",
+        "slot": "guide-section-break-2"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:underground-market",
+      "zh-CN:shop-inventory"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:hydroponic-farmer",
+    "translationKey": "hydroponic-farmer",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "hydroponic-farmer",
+    "url": "/zh-CN/guides/hydroponic-farmer",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 水培农夫攻略：稳定生产食物",
+    "seoTitle": "Probably Stolen 水培农夫攻略：稳定生产食物",
+    "metaDescription": "食品不属于武器检查、化学品成瘾、水质责任或违禁品搜查这四类主要经营风险，因此农夫是较安全的开局。保持食品上架，再按夜间产能逐步扩张。",
+    "summary": "食品不属于武器检查、化学品成瘾、水质责任或违禁品搜查这四类主要经营风险，因此农夫是较安全的开局。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "生产链攻略：每台设备产出什么",
+          "href": "/zh-CN/guides/production-chains"
+        }
+      ]
+    },
+    "quickAnswer": "食品不属于武器检查、化学品成瘾、水质责任或违禁品搜查这四类主要经营风险，因此农夫是较安全的开局。保持食品上架，再按夜间产能逐步扩张。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "why-food-is-safe",
+        "type": "steps",
+        "heading": "为什么农夫适合新手",
+        "intro": "",
+        "items": [
+          {
+            "title": "食品没有对应的专属搜查风险",
+            "body": "它不同于武器、化学品、水和违禁品的四类主要风险。"
+          },
+          {
+            "title": "能维持店铺吸引力",
+            "body": "食品货架不断货，有助于保持客流。"
+          },
+          {
+            "title": "夜间产出可持续补货",
+            "body": "先维持一条能供料的水培生产链。"
+          }
+        ],
+        "outro": "仍要管理租金、失窃和顾客风险；“较安全”不等于不会失败。"
+      },
+      {
+        "id": "where-the-food-has-to-end-up",
+        "type": "steps",
+        "heading": "产出的食品放在哪里",
+        "intro": "",
+        "items": [
+          {
+            "title": "食品货架",
+            "body": "先避免缺货带来的客流损失。"
+          },
+          {
+            "title": "展示柜",
+            "body": "食物或浆果可吸引相关买家和补货卖家。"
+          },
+          {
+            "title": "可销售库存",
+            "body": "留出下期租金，不必把所有产出都用于扩张。"
+          }
+        ],
+        "outro": "展示柜与食品货架作用不同，具体见[展示柜攻略](/zh-CN/guides/display-case)。"
+      },
+      {
+        "id": "running-it-overnight",
+        "type": "prose",
+        "heading": "夜间水培怎么安排",
+        "body": "水培池与其他设备一样需要原料、电力和一整个夜间时段。先确认单条生产链能稳定运转，再增加新槽位；各设备的产出见[生产链攻略](/zh-CN/guides/production-chains)。"
+      },
+      {
+        "id": "when-to-stop-expanding",
+        "type": "prose",
+        "heading": "接近买店金额时停止扩张",
+        "body": "新的水培池能增加产量，也会占用现金。接近 HUD 显示的买店目标时，优先保留租金和买断储备，避免为了远期收益错过购买时机。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "where-the-food-has-to-end-up",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:production-chains",
+      "zh-CN:display-case"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:crafting-machines",
+    "translationKey": "crafting-machines",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "crafting-machines",
+    "url": "/zh-CN/guides/crafting-machines",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 生产设备与电力攻略",
+    "seoTitle": "Probably Stolen 生产设备与电力攻略",
+    "metaDescription": "夜间生产设备由杰克逊博士出售，库存会受游戏天数及你已拥有的独特物品影响。购买前先确认要跑哪条生产链、需要哪些槽位和电力，避免把租金储备用在暂时用不上的设备上。",
+    "summary": "夜间生产设备由杰克逊博士出售，库存会受游戏天数及你已拥有的独特物品影响。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "生产链攻略：每台设备产出什么",
+          "href": "/zh-CN/guides/production-chains"
+        }
+      ]
+    },
+    "quickAnswer": "夜间生产设备由杰克逊博士出售，库存会受游戏天数及你已拥有的独特物品影响。购买前先确认要跑哪条生产链、需要哪些槽位和电力，避免把租金储备用在暂时用不上的设备上。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "slots-power-and-jacksons-stock",
+        "type": "data-table",
+        "heading": "常见设备与用途",
+        "intro": "",
+        "columns": [
+          {
+            "key": "machine",
+            "label": "设备"
+          },
+          {
+            "key": "slots",
+            "label": "主要槽位或作用"
+          }
+        ],
+        "rows": [
+          {
+            "machine": "化学整理机",
+            "slots": "化学模块、容器、产物和配方控制。"
+          },
+          {
+            "machine": "蒸发器",
+            "slots": "电池、模块、容器和蒸馏产物。"
+          },
+          {
+            "machine": "加热板",
+            "slots": "化学模块与温度设置。"
+          },
+          {
+            "machine": "水培设施",
+            "slots": "电力、模块和水容器。"
+          },
+          {
+            "machine": "净水器",
+            "slots": "电力、模块、水容器和成品。"
+          },
+          {
+            "machine": "真空机器人",
+            "slots": "夜间收集垃圾，也会消耗电力。"
+          },
+          {
+            "machine": "熔炉",
+            "slots": "消耗废料或矿石生产金属锭。"
+          }
+        ],
+        "outro": "设备实际槽位、库存和价格以当前游戏面板为准。杰克逊博士出售多种设备，部分独特物品不能重复购买。"
+      },
+      {
+        "id": "purchase-order-from-jackson",
+        "type": "steps",
+        "heading": "向杰克逊购买前先核对",
+        "intro": "",
+        "items": [
+          {
+            "title": "确定正在经营的生产链",
+            "body": "先看原料和销路，再选机器。"
+          },
+          {
+            "title": "确认槽位、电池和夜间电力",
+            "body": "设备买来却无法供能，就不会产出。"
+          },
+          {
+            "title": "衡量工具箱是否值得购买",
+            "body": "工具箱在较后天数开放，可收纳贴标等工具。"
+          },
+          {
+            "title": "留够下一期租金",
+            "body": "不要用现金缓冲买暂时用不上的设备。"
+          }
+        ],
+        "outro": "不同路线的原料与产出见[生产链攻略](/zh-CN/guides/production-chains)。"
+      },
+      {
+        "id": "what-the-late-updates-added",
+        "type": "prose",
+        "heading": "版本更新中的设备变化",
+        "body": "UPDATE 049 增加了瓶子打印机和购买前的容器预览；真空机器人的焚烧升级会消耗更多电力。48.3.12 则修正了垃圾处理模块额外耗能的错误。不要把升级本身的电力成本和已修复的故障混为一谈。"
+      },
+      {
+        "id": "power-is-a-running-cost",
+        "type": "prose",
+        "heading": "电费是一项持续开支",
+        "body": "大多数夜间机器需要电力和能量电池。扩大到第二条生产链前，先算新增设备的运行成本。Wild Network 的非法接电可省电费，但可能形成派系债务；租金与其他固定开支见[资金攻略](/zh-CN/guides/money-and-rent)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "purchase-order-from-jackson",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:production-chains",
+      "zh-CN:money-and-rent"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:production-chains",
+    "translationKey": "production-chains",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "production-chains",
+    "url": "/zh-CN/guides/production-chains",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 生产链攻略：每台设备产出什么",
+    "seoTitle": "Probably Stolen 生产链攻略：每台设备产出什么",
+    "metaDescription": "每晚只运行一条能持续供料的生产链。熔炉、发酵设备、净水设备和水培设施的投入与产出不同；先按现有原料和经营路线选机器，再计算电费与第二天的售价。",
+    "summary": "每晚只运行一条能持续供料的生产链。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "生产设备与电力攻略",
+          "href": "/zh-CN/guides/crafting-machines"
+        }
+      ]
+    },
+    "quickAnswer": "每晚只运行一条能持续供料的生产链。熔炉、发酵设备、净水设备和水培设施的投入与产出不同；先按现有原料和经营路线选机器，再计算电费与第二天的售价。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "what-each-one-makes",
+        "type": "data-table",
+        "heading": "四条常见生产链",
+        "intro": "",
+        "columns": [
+          {
+            "key": "chain",
+            "label": "生产链"
+          },
+          {
+            "key": "input",
+            "label": "投入"
+          },
+          {
+            "key": "output",
+            "label": "产出"
+          },
+          {
+            "key": "notes",
+            "label": "注意"
+          }
+        ],
+        "rows": [
+          {
+            "chain": "熔炉",
+            "input": "废金属或矿石",
+            "output": "金属锭",
+            "notes": "废料与矿石的纯度不同；助熔剂会被消耗。"
+          },
+          {
+            "chain": "酿酒",
+            "input": "葡萄及瓶子",
+            "output": "葡萄酒",
+            "notes": "发酵设备在夜间工作。"
+          },
+          {
+            "chain": "净水",
+            "input": "原水、净水设备及容器",
+            "output": "可销售的水",
+            "notes": "出售前检测并按实测品质贴标。"
+          },
+          {
+            "chain": "水培",
+            "input": "水、设备和种植原料",
+            "output": "食品",
+            "notes": "可补食品货架和店铺库存。"
+          }
+        ],
+        "outro": "具体配方、槽位和电力需求以当前游戏内设备为准；设备介绍见[生产设备攻略](/zh-CN/guides/crafting-machines)。"
+      },
+      {
+        "id": "the-nightly-decision-order",
+        "type": "steps",
+        "heading": "每天晚上按什么顺序决定",
+        "intro": "",
+        "items": [
+          {
+            "title": "先留出租金",
+            "body": "别把现金和原料都投入无法及时卖出的产物。"
+          },
+          {
+            "title": "选一条能持续供料的生产链",
+            "body": "检查机器、原料、电池和销路。"
+          },
+          {
+            "title": "考虑是否需要拾荒",
+            "body": "缺废料时再去垃圾场，并算上受伤及迟开门的代价。"
+          },
+          {
+            "title": "睡前确认设备状态",
+            "body": "“未选择配方”等提示意味着机器不会生产。"
+          }
+        ],
+        "outro": "拾荒的具体风险见[夜间拾荒攻略](/zh-CN/guides/night-scavenging)。"
+      },
+      {
+        "id": "power-and-inputs-are-the-constraint",
+        "type": "prose",
+        "heading": "原料和电力限制扩张",
+        "body": "新增机器不会凭空增加产量：第二条链还需要对应原料、电池、夜间电力和顾客需求。先让第一条链稳定供料，再购买下一台设备。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "the-nightly-decision-order",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:crafting-machines",
+      "zh-CN:night-scavenging"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:night-scavenging",
+    "translationKey": "night-scavenging",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "night-scavenging",
+    "url": "/zh-CN/guides/night-scavenging",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 夜间拾荒攻略",
+    "seoTitle": "Probably Stolen 夜间拾荒攻略",
+    "metaDescription": "关店后可以选择去垃圾场拾荒，但每次出行都有受伤风险，并会影响次日早晨开店。只有预期带回的材料和工具足以弥补这两项成本时，才值得放弃睡觉去一趟。",
+    "summary": "关店后可以选择去垃圾场拾荒，但每次出行都有受伤风险，并会影响次日早晨开店。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "assetId": "night-scavenging",
+      "ctas": [
+        {
+          "label": "生产链攻略：每台设备产出什么",
+          "href": "/zh-CN/guides/production-chains"
+        }
+      ]
+    },
+    "quickAnswer": "关店后可以选择去垃圾场拾荒，但每次出行都有受伤风险，并会影响次日早晨开店。只有预期带回的材料和工具足以弥补这两项成本时，才值得放弃睡觉去一趟。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "what-a-trip-looks-like",
+        "type": "steps",
+        "heading": "一次夜间拾荒怎么进行",
+        "intro": "",
+        "items": [
+          {
+            "title": "关店后选择垃圾场",
+            "body": "这会占用原本用来睡觉或生产的夜晚。"
+          },
+          {
+            "title": "带上背包、绷带和工具",
+            "body": "有扫描仪或切割机时再按携带空间取舍。"
+          },
+          {
+            "title": "在有限次数内搜索",
+            "body": "看不懂的格子不要盲挖。"
+          },
+          {
+            "title": "按价值选择带回的物品",
+            "body": "背包槽位有限，优先考虑当前生产缺口。"
+          },
+          {
+            "title": "回店后准备次日开门",
+            "body": "拾荒可能使早晨迟开门。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "the-wound-odds",
+        "type": "prose",
+        "heading": "受伤概率与绷带成本",
+        "body": "游戏内 SCAVENGE 面板在所记录版本显示：每次尝试轻伤约 10.00%，重伤约 2.25%。受伤后不能继续拾荒；绷带要计入出行成本。数字以你当前游戏面板为准。"
+      },
+      {
+        "id": "what-you-can-bring-back",
+        "type": "data-table",
+        "heading": "值得带回什么",
+        "intro": "",
+        "columns": [
+          {
+            "key": "haul",
+            "label": "物品"
+          },
+          {
+            "key": "use",
+            "label": "用途"
+          }
+        ],
+        "rows": [
+          {
+            "haul": "废金属",
+            "use": "送入熔炉，或作为一般材料。"
+          },
+          {
+            "haul": "模块",
+            "use": "出售或装进相应设备。"
+          },
+          {
+            "haul": "钢丝钳、切割机、扫描仪等工具",
+            "use": "用于后续操作。"
+          },
+          {
+            "haul": "其他可售物品",
+            "use": "先估值，再与背包空间比较。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "scrap-feeds-the-furnace",
+        "type": "prose",
+        "heading": "废料可供熔炉使用",
+        "body": "熔炉会把废金属或矿石加工成锭。若出行只是为了补废料，应先算本晚能否生产、次日能否销售；各链条的投入产出见[生产链攻略](/zh-CN/guides/production-chains)。"
+      },
+      {
+        "id": "the-trip-costs-you-the-morning",
+        "type": "prose",
+        "heading": "拾荒还会影响第二天的客流",
+        "body": "伤口和迟开门都可能让你损失销售。租金将到期、没有绷带或已有足够材料时，可以选择睡觉或生产。若此行是为了处理放射性废物，请先看[处置攻略](/zh-CN/guides/radioactive-waste)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "the-wound-odds",
+        "slot": "guide-section-break"
+      },
+      {
+        "after": "what-you-can-bring-back",
+        "slot": "guide-section-break-2"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:production-chains",
+      "zh-CN:radioactive-waste"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:station-factions",
+    "translationKey": "station-factions",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "station-factions",
+    "url": "/zh-CN/guides/station-factions",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 空间站派系与声望攻略",
+    "seoTitle": "Probably Stolen 空间站派系与声望攻略",
+    "metaDescription": "空间站有安保部门、黑市、革命派和上层区四股主要势力：交易与举报会改变你与它们的关系。声望能解锁机会，也可能招来针对；乔·怀尔德的网络则是独立的供应与社区渠道。",
+    "summary": "空间站有安保部门、黑市、革命派和上层区四股主要势力：交易与举报会改变你与它们的关系。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "顾客应对攻略：四种选择",
+          "href": "/zh-CN/guides/customer-reactions"
+        }
+      ]
+    },
+    "quickAnswer": "空间站有安保部门、黑市、革命派和上层区四股主要势力：交易与举报会改变你与它们的关系。声望能解锁机会，也可能招来针对；乔·怀尔德的网络则是独立的供应与社区渠道。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "what-each-one-wants",
+        "type": "data-table",
+        "heading": "空间站的主要势力",
+        "intro": "",
+        "columns": [
+          {
+            "key": "faction",
+            "label": "势力"
+          },
+          {
+            "key": "wants",
+            "label": "关注点"
+          },
+          {
+            "key": "move",
+            "label": "哪些行为会影响关系"
+          }
+        ],
+        "rows": [
+          {
+            "faction": "安保部门",
+            "wants": "执法与检查",
+            "move": "举报通缉犯、配合检查。"
+          },
+          {
+            "faction": "黑市",
+            "wants": "非法贸易",
+            "move": "交易违禁品，以及与安保有关的选择。"
+          },
+          {
+            "faction": "革命派",
+            "wants": "扩大影响力",
+            "move": "举报相关人物可能招来报复。"
+          },
+          {
+            "faction": "上层区",
+            "wants": "特权与高价商品",
+            "move": "与上层顾客交易、议价。"
+          },
+          {
+            "faction": "Wild Network",
+            "wants": "供应与社区服务",
+            "move": "乔·怀尔德的保险和网络购买；不是独立的政府派系。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "standing-buys-access",
+        "type": "prose",
+        "heading": "声望能解锁机会，也会招来注意",
+        "body": "声望会影响许可、交易和保护，也可能让另一方把你视为目标。若追求 Diplomatic 成就，只需将一个派系的声望升到最高，不必平均经营所有派系。买店过程中的其他成就见[里程碑表](/zh-CN/guides/buy-out-the-shop)。"
+      },
+      {
+        "id": "four-ways-to-answer",
+        "type": "data-table",
+        "heading": "面对交易时的四种回应",
+        "intro": "",
+        "columns": [
+          {
+            "key": "choice",
+            "label": "选择"
+          },
+          {
+            "key": "get",
+            "label": "可能得到"
+          },
+          {
+            "key": "costs",
+            "label": "可能付出"
+          }
+        ],
+        "rows": [
+          {
+            "choice": "批准",
+            "get": "成交与利润",
+            "costs": "货品风险和派系后果。"
+          },
+          {
+            "choice": "拒绝",
+            "get": "避免当前风险",
+            "costs": "失去这笔交易。"
+          },
+          {
+            "choice": "举报",
+            "get": "通缉犯赏金及安保声望",
+            "costs": "可能引来黑市或革命派的报复。"
+          },
+          {
+            "choice": "无视",
+            "get": "暂时不介入",
+            "costs": "其他势力仍可能注意你的选择。"
+          }
+        ],
+        "outro": "具体顾客类型与判断顺序见[顾客应对攻略](/zh-CN/guides/customer-reactions)。"
+      },
+      {
+        "id": "the-aug-policy-cuts-across-all-of-them",
+        "type": "prose",
+        "heading": "Aug 判断与派系关系不同",
+        "body": "确认的 Aug 宿主按空间站政策处理；没有确认时，不要把普通顾客或派系人物误判为 Aug。杰克逊博士的扫描仪和安保手册能辅助判断，见[Aug 识别攻略](/zh-CN/guides/spot-augs)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "standing-buys-access",
+        "slot": "guide-section-break"
+      },
+      {
+        "after": "the-aug-policy-cuts-across-all-of-them",
+        "slot": "guide-section-break-2"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:customer-reactions",
+      "zh-CN:spot-augs",
+      "zh-CN:buy-out-the-shop"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-21"
+  },
+  {
+    "id": "zh-CN:spot-augs",
+    "translationKey": "spot-augs",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "spot-augs",
+    "url": "/zh-CN/guides/spot-augs",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 怎么识别 Aug",
+    "seoTitle": "Probably Stolen 怎么识别 Aug",
+    "metaDescription": "Aug 是受危险 AI 芯片控制的宿主。空间站对确认的 Aug 采取发现即射杀的政策，但判断必须有证据；拿不准的顾客应按普通交易处理或拒绝交易，不要贸然开枪。",
+    "summary": "Aug 是受危险 AI 芯片控制的宿主。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "assetId": "aug-identification-guide",
+      "ctas": [
+        {
+          "label": "顾客应对攻略：四种选择",
+          "href": "/zh-CN/guides/customer-reactions"
+        }
+      ]
+    },
+    "quickAnswer": "Aug 是受危险 AI 芯片控制的宿主。空间站对确认的 Aug 采取发现即射杀的政策，但判断必须有证据；拿不准的顾客应按普通交易处理或拒绝交易，不要贸然开枪。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "the-two-lists",
+        "type": "data-table",
+        "heading": "识别 Aug 的两类线索",
+        "intro": "",
+        "columns": [
+          {
+            "key": "list",
+            "label": "类型"
+          },
+          {
+            "key": "tells",
+            "label": "检查什么"
+          }
+        ],
+        "rows": [
+          {
+            "list": "外观线索",
+            "tells": "可见芯片、异常瞳孔或不自然的表情。"
+          },
+          {
+            "list": "行为线索",
+            "tells": "不自然的静止或抽动、与身份不符的衣着和说话方式。"
+          }
+        ],
+        "outro": "这些线索用于进一步核对；不要只凭单一印象开枪。实际表现以当前版本和游戏内手册为准。"
+      },
+      {
+        "id": "order-to-work-in",
+        "type": "steps",
+        "heading": "柜台前的判断顺序",
+        "intro": "",
+        "items": [
+          {
+            "title": "先确认是否为受保护的关键 NPC",
+            "body": "导师、杰克逊博士和乔·怀尔德等人物不能随意射击。"
+          },
+          {
+            "title": "对照通缉海报",
+            "body": "通缉犯通常应举报领赏，不等于 Aug。"
+          },
+          {
+            "title": "核对外观和行为线索",
+            "body": "必要时使用扫描仪辅助。"
+          },
+          {
+            "title": "不确定就拒绝或完成普通交易",
+            "body": "不要把猜测当成射击依据。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "what-each-outcome-costs",
+        "type": "data-table",
+        "heading": "误判的代价",
+        "intro": "",
+        "columns": [
+          {
+            "key": "outcome",
+            "label": "处理结果"
+          },
+          {
+            "key": "result",
+            "label": "后果"
+          }
+        ],
+        "rows": [
+          {
+            "outcome": "确认 Aug 后处理",
+            "result": "阻止该宿主继续造成威胁。"
+          },
+          {
+            "outcome": "举报通缉犯",
+            "result": "可能获得赏金与安保声望，也可能引来报复。"
+          },
+          {
+            "outcome": "误伤普通人",
+            "result": "失去顾客或联系人，并损害收入、吸引力与声望。"
+          },
+          {
+            "outcome": "放过真正的 Aug",
+            "result": "威胁继续存在。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "who-answers-for-a-body",
+        "type": "prose",
+        "heading": "不要把误伤当成派系策略",
+        "body": "各派系对确认的 Aug 有共同政策，但普通人、革命派成员或脾气差的顾客都不能因此被当作宿主。误伤后的报复可能稍后才出现；相关关系见[派系攻略](/zh-CN/guides/station-factions)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "order-to-work-in",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:customer-reactions",
+      "zh-CN:station-factions"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  },
+  {
+    "id": "zh-CN:customer-reactions",
+    "translationKey": "customer-reactions",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "customer-reactions",
+    "url": "/zh-CN/guides/customer-reactions",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 顾客应对攻略：四种选择",
+    "seoTitle": "Probably Stolen 顾客应对攻略：四种选择",
+    "metaDescription": "顾客会以不同身份进店，你可以批准、拒绝、举报或视而不见。先判断货物和身份，再考虑利润、声望与安保后果；赚得最多的选择未必是最安全的选择。",
+    "summary": "顾客会以不同身份进店，你可以批准、拒绝、举报或视而不见。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "怎么识别 Aug",
+          "href": "/zh-CN/guides/spot-augs"
+        }
+      ]
+    },
+    "quickAnswer": "顾客会以不同身份进店，你可以批准、拒绝、举报或视而不见。先判断货物和身份，再考虑利润、声望与安保后果；赚得最多的选择未必是最安全的选择。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "who-walks-in",
+        "type": "data-table",
+        "heading": "来店顾客与第一步判断",
+        "intro": "",
+        "columns": [
+          {
+            "key": "type",
+            "label": "顾客类型"
+          },
+          {
+            "key": "answer",
+            "label": "先做什么"
+          }
+        ],
+        "rows": [
+          {
+            "type": "导师、杰克逊博士、乔·怀尔德等关键人物",
+            "answer": "正常交易，不要射击。"
+          },
+          {
+            "type": "疑似 Aug",
+            "answer": "核对线索与扫描结果，不确定就不要开枪。"
+          },
+          {
+            "type": "通缉犯",
+            "answer": "对照海报后举报，而非直接处决。"
+          },
+          {
+            "type": "安保调查员",
+            "answer": "先看检查与货品风险。"
+          },
+          {
+            "type": "革命派或上层区顾客",
+            "answer": "考虑交易的派系后果。"
+          },
+          {
+            "type": "可疑货品卖家",
+            "answer": "先检查货物，不凭外表定罪。"
+          }
+        ],
+        "outro": "识别 Aug 的具体顺序见[Aug 攻略](/zh-CN/guides/spot-augs)。"
+      },
+      {
+        "id": "the-four-choices",
+        "type": "data-table",
+        "heading": "批准、拒绝、举报或无视",
+        "intro": "",
+        "columns": [
+          {
+            "key": "choice",
+            "label": "选择"
+          },
+          {
+            "key": "get",
+            "label": "可能得到"
+          },
+          {
+            "key": "costs",
+            "label": "可能付出"
+          }
+        ],
+        "rows": [
+          {
+            "choice": "批准",
+            "get": "完成交易并取得利润",
+            "costs": "有问题的货品可能带来后续风险。"
+          },
+          {
+            "choice": "拒绝",
+            "get": "避开当前风险",
+            "costs": "失去潜在利润或关系。"
+          },
+          {
+            "choice": "举报",
+            "get": "通缉犯赏金和安保声望",
+            "costs": "可能遭到报复。"
+          },
+          {
+            "choice": "无视",
+            "get": "暂时不介入",
+            "costs": "派系仍可能观察你的选择。"
+          }
+        ],
+        "outro": ""
+      },
+      {
+        "id": "who-shows-up-is-partly-your-choice",
+        "type": "prose",
+        "heading": "进店顾客也受陈列影响",
+        "body": "开门前的展示柜会影响当天进店的人。香烟、食品、武器或霓虹道具各自吸引不同交易对象；开门后改动要到次日生效。对照表见[展示柜攻略](/zh-CN/guides/display-case)。"
+      },
+      {
+        "id": "judge-the-goods-first",
+        "type": "prose",
+        "heading": "先检查货，再判断人",
+        "body": "可疑卖家和紧张的拾荒者未必是罪犯。先用放大镜、手册与估值检查批货，再决定交易或指控；三项真伪检查见[假货攻略](/zh-CN/guides/spot-fakes)。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "who-walks-in",
+        "slot": "guide-section-break"
+      },
+      {
+        "after": "who-shows-up-is-partly-your-choice",
+        "slot": "guide-section-break-2"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:spot-augs",
+      "zh-CN:display-case",
+      "zh-CN:spot-fakes"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-20"
+  }
+]

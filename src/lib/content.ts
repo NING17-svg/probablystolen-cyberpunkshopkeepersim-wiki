@@ -2,6 +2,7 @@ import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { faqItems } from "@/data/faq";
 import { guidePages } from "@/data/pages/guide-pages";
 import { homePage } from "@/data/pages/home";
+import chineseContent from "@/data/pages/zh-CN.json";
 import { normalizePath } from "@/lib/localization";
 
 /**
@@ -10,7 +11,7 @@ import { normalizePath } from "@/lib/localization";
  * (About, Contact, Privacy, Terms, FAQ, Release Date, Wiki) are not published,
  * so nothing links to a route that does not exist.
  */
-const pages: PageContent[] = [homePage, ...guidePages];
+const pages: PageContent[] = [homePage, ...guidePages, ...(chineseContent as PageContent[])];
 
 export interface FinalRouteManifestEntry {
   id: string;

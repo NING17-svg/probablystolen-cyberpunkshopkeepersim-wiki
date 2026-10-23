@@ -2,12 +2,14 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
+import { usePathname } from "next/navigation";
 import { assetManifest } from "@/data/assets";
 import type { AssetManifest } from "@/types/assets";
 
 interface AssetMediaProps { assetId?: string; className?: string; priority?: boolean; sizes?: string }
 
 export function AssetMedia({ assetId, className = "", priority = false, sizes = "(max-width: 768px) 100vw, 50vw" }: AssetMediaProps) {
+  const locale = usePathname()?.startsWith("/zh-CN") ? "zh-CN" : "en-US";
   const [failedSrc, setFailedSrc] = useState<string>();
   const assets: AssetManifest = assetManifest;
   const asset = assetId && Object.prototype.hasOwnProperty.call(assetManifest, assetId) ? assets[assetId] : undefined;
@@ -16,7 +18,7 @@ export function AssetMedia({ assetId, className = "", priority = false, sizes = 
     return <div className={`asset-media asset-fallback fallback-${fallback} ${fallback === "hide" ? "is-hidden" : ""} ${className}`} aria-hidden="true" />;
   }
   return <figure className={`asset-media ${className}`}>
-    <Image unoptimized src={asset.src} alt={asset.alt} width={asset.width} height={asset.height} priority={priority} sizes={sizes}
+    <Image unoptimized src={asset.src} alt={asset.localizedAlt?.[locale] ?? asset.alt} width={asset.width} height={asset.height} priority={priority} sizes={sizes}
       onError={() => setFailedSrc(asset.src)} style={{ objectPosition: asset.objectPosition ?? "center" }} />
   </figure>;
 }

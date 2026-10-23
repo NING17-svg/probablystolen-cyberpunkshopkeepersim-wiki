@@ -6,6 +6,12 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-10-24 - Simplified Chinese edition
+
+- Added `/zh-CN` and Chinese counterparts for all 20 existing guide URLs, with Chinese answers, headings, navigation, search, related links, image descriptions and shared advertising positions. English root routes remain the primary-locale paths.
+- Each page has its own canonical URL and reciprocal `en-US` / `zh-CN` alternates in HTML and the sitemap. The header language switch opens the corresponding page.
+- Verification: `npm run verify`, exported-page link and metadata audit, representative desktop/mobile visual inspection and live-route checks after publication.
+
 ### 2026-10-21 - Achievement-milestone pacing bridged to the buyout run
 
 - Task `2026-10-21-probablystolen-cyberpunkshopkeepersim-wiki-buyout-milestone-pacing`. Four existing guide routes updated; no new routes, no change to `route-manifest.json`, the ad placement manifest or `src/data/ads.ts`.

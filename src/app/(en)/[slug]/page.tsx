@@ -14,7 +14,7 @@ interface PageProps {
 
 export function generateStaticParams() {
   const params = getIndexablePages()
-    .filter((page) => page.url !== "/" && page.url.split("/").filter(Boolean).length === 1)
+    .filter((page) => page.locale === "en-US" && page.url !== "/" && page.url.split("/").filter(Boolean).length === 1)
     .map((page) => ({ slug: page.url.slice(1) }));
 
   // Every page on this site is either "/" or two segments deep, so this route

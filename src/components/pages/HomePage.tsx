@@ -76,7 +76,7 @@ export function HomePage({ page, themeConfig = theme, recentPages, adAnchors = [
               </div>
             </section>
           ) : null}
-          {related.length ? <RelatedLinks pages={related} /> : null}
+          {related.length ? <RelatedLinks pages={related} locale={page.locale} /> : null}
           {faqs.length ? <FAQBlock faqs={faqs} /> : null}
         </details>
       ) : null}

@@ -15,6 +15,7 @@ interface PageProps {
 
 export function generateStaticParams() {
   const params = getIndexablePages()
+    .filter((page) => page.locale === "en-US")
     .map((page) => page.url.split("/").filter(Boolean))
     .filter((segments) => segments.length > 1)
     .map(([slug, ...segments]) => ({ slug, segments }));

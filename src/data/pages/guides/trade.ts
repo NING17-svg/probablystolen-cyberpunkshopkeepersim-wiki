@@ -204,9 +204,9 @@ export const spotFakesPage: PageContent = {
   h1: "Probably Stolen How To Spot Fakes: Inspection Checklist",
   seoTitle: "Probably Stolen How To Spot Fakes: Inspection Checklist",
   metaDescription:
-    "Equip the glass, open the handbook and check logos, seals and colour plates. This Probably Stolen how to spot fakes guide gives the order and the four replies.",
+    "Equip the glass, open the handbook and check logos, seals and colour plates. This Probably Stolen how to spot fakes guide gives the order, the four replies and the day-14 Toolbox.",
   summary:
-    "Equip the glass, open the handbook and check logos, seals and colour plates. This Probably Stolen how to spot fakes guide gives the order and the four replies.",
+    "Equip the glass, open the handbook and check logos, seals and colour plates. This Probably Stolen how to spot fakes guide gives the order, the four replies and the day-14 Toolbox.",
   hero: {
     eyebrow: "Stock, display and trade",
     subtitle: "",
@@ -214,14 +214,14 @@ export const spotFakesPage: PageContent = {
     ctas: [{ label: "Underground market", href: "/guides/underground-market" }],
   },
   quickAnswer:
-    "Equip the magnifying glass on the lot, open the handbook, and check the three columns — logos, seal integrity and colour plates. Stop at the first confirmed discrepancy and confront the seller, because one discrepancy is enough to drop the price and enough to end the argument.",
+    "The glass and the handbook catch the physical tells — logo geometry, a broken seal, a colour that does not match the checker — and the UV filter catches relabelled goods and chemical composition, though since the 2026-09-20 update report you can no longer UV-test an item you do not own. Buy the Toolbox from Dr. Jackson after day 14, keep the tools in slots one to nine, and use equip mode with a multi-item selection to authenticate a whole lot in one pass.",
   keyFacts: [],
   modules: [
     {
       id: "the-three-checks",
       type: "steps",
       heading: "Probably Stolen how to spot fakes: the three checks",
-      intro: `The Mentor gives you two tools early, and they are the whole basis of the inspection economy: a magnifying glass and a handbook. The handbook carries the Hemingway identification guide for cigarettes plus a colour checker. Water Merchants begin with a tester kit; other professions buy the Water Trading Manual from Dr. Jackson.`,
+      intro: `The Mentor gives you two tools early, and they are the basis of the inspection economy: a magnifying glass and a handbook. The handbook carries the Hemingway identification guide for cigarettes plus a colour checker. Water Merchants begin with a tester kit; other professions buy the Water Trading Manual from Dr. Jackson.`,
       items: [
         { title: "Equip the magnifying glass.", body: "On the pack or rare good." },
         { title: "Open the handbook.", body: "For reference." },
@@ -235,18 +235,90 @@ export const spotFakesPage: PageContent = {
           body: "If nothing fails but the price still stinks, refuse the lot.",
         },
       ],
-      outro: `Per-category tells:
-
-| Category | What gives it away |
-| --- | --- |
-| Hemingway cigarettes | Closed-end logo geometry against an open one, an already-broken seal, or a colour that does not match the checker |
-| Water jugs | Readings for purity, heavy metals and chemical contaminants |
-| Rare goods | Needs appraisal so you do not overpay on dock junk |
-| Fake weapons and permits | A raid risk rather than a discount opportunity |
-
-Hemingway cigarettes are never sold without a security seal, so a missing or broken seal makes the pack a counterfeit on its own. Counterfeits also estimate consistently lower in value than genuine goods.
+      outro: `Hemingway cigarettes are never sold without a security seal, so a missing or broken seal makes the pack a counterfeit on its own. Counterfeits also estimate consistently lower in value than genuine goods, while a fake weapon or permit is a raid risk rather than a discount opportunity.
 
 Keep two problems apart: stolen goods can be real and still hot, while counterfeit goods can be cold and still worthless.`,
+    },
+    {
+      id: "which-tool-catches-which-fake",
+      type: "data-table",
+      heading: "Which tool catches which fake",
+      intro:
+        "Route the category to the tool that actually answers it, instead of trusting the glass on everything:",
+      columns: [
+        { key: "category", label: "Category" },
+        { key: "tell", label: "What gives it away" },
+        { key: "tool", label: "The tool that answers it" },
+      ],
+      rows: [
+        {
+          category: "Hemingway cigarettes",
+          tell:
+            "Closed-end logo geometry against an open one, an already-broken seal, or a colour that does not match the checker",
+          tool:
+            "The magnifying glass, with the Hemingway guide and the colour checker in the handbook",
+        },
+        {
+          category: "Water jugs",
+          tell: "Readings for purity, heavy metals and chemical contaminants",
+          tool:
+            "The testing or filtering kit, plus the Water Trading Manual to certify the grade",
+        },
+        {
+          category: "Weapons",
+          tell: "Serial numbers and paperwork that does not line up",
+          tool: "The serial number check and the pen",
+        },
+        {
+          category: "Rare goods",
+          tell: "Dock junk you would overpay for without an appraisal",
+          tool:
+            "Their own appraisal check — rare goods are appraised on their own terms, not by a physical tell",
+        },
+      ],
+      outro:
+        "The glass cannot read a purity figure and the UV filter cannot tell you a logo is the wrong shape. Jug grades have their own order on the [water merchant page](/guides/water-merchant).",
+    },
+    {
+      id: "the-uv-filter",
+      type: "prose",
+      heading: "The UV filter, and the free test you no longer get",
+      body: `The UV filter is the second inspection tool, and it answers what the glass cannot: relabelled goods and chemical composition. The detail comes from a 2026-09-20 demo write-up, so treat it as reported rather than as confirmed.
+
+The same write-up records a change that removes a tactic the older pages relied on: an update now prevents UV testing on items you do not own. As of 2026-09-20 that means the free supplier test is gone — you cannot run the UV filter over a seller's stock before you buy it, so you either pay first and check afterwards, or you authenticate from the physical tells alone.
+
+That moves the order at the counter: the glass, the handbook and the colour checker have to do the work before you commit, and the UV filter becomes a check on what you have already bought. Treat that as a dated observation, not an evergreen rule, and re-read the controls screen after each update.`,
+    },
+    {
+      id: "the-toolbox-batch-workflow",
+      type: "steps",
+      heading: "Run one tool across a whole lot",
+      intro:
+        "UPDATE 049 added a tool layer, and that layer is what makes bulk authentication viable:",
+      items: [
+        {
+          title: "Buy the Toolbox from Dr. Jackson after day 14.",
+          body: "It holds the tools you own, including the blue and red labelers. The [crafting machines page](/guides/crafting-machines) owns the purchase order.",
+        },
+        {
+          title: "Keep the tools in slots one to nine.",
+          body: "Keys 1 through 9 equip the matching tool, so the check you need is one keystroke away.",
+        },
+        {
+          title: "Select the whole lot before you equip.",
+          body: "Multi-item drag selection is what makes a batch worth running as one.",
+        },
+        {
+          title: "Switch on equip mode.",
+          body: "The selected tool then applies to every object in the selection at once.",
+        },
+        {
+          title: "Check every result against the routing table.",
+          body: "The glass answers logos, seals and colours, the UV filter answers relabelling and chemical composition, and the serial check answers weapons paperwork.",
+        },
+      ],
+      outro:
+        "That is the batch form of the three checks: one pass per lot, and every item in the selection comes back either clean or flagged.",
     },
     {
       id: "four-ways-to-answer-a-fake",
@@ -287,15 +359,15 @@ Keep two problems apart: stolen goods can be real and still hot, while counterfe
       heading: "Why fakes show up at all",
       body: `You do not need to seek them out. Cigarette bait in the display case draws cigarette sellers, including chances to meet dock fakes, which is why the [display case guide](/guides/display-case) pairs bait choice with inspection capability. Counterfeits arrive from the docks whether you asked for them or not, and reselling one you failed to catch still hurts your name.
 
-Reporting wanted faces is a separate exercise from authentication: matching a scar, collar or eyebrow on a poster can net a bounty, with 100 credits appearing in one public session. Do not confuse "this pack is fake" with "this face is on a poster".`,
+Reporting wanted faces is a separate exercise from authentication: the poster check applies to the customer in front of you rather than to their lot, and a match can net a bounty. Do not confuse "this pack is fake" with "this face is on a poster" — the [customer reactions page](/guides/customer-reactions) has the reporting procedure.`,
     },
   ],
   adAnchors: [{ after: "four-ways-to-answer-a-fake", slot: "guide-section-break" }],
   faqIds: [],
-  relatedPageIds: ["display-case", "underground-market"],
+  relatedPageIds: ["display-case", "underground-market", "customer-reactions", "recurring-npcs"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-27",
 };
 
 export const undergroundMarketPage: PageContent = {
@@ -327,7 +399,7 @@ export const undergroundMarketPage: PageContent = {
       id: "how-access-works",
       type: "prose",
       heading: "Probably Stolen underground market: how access works",
-      body: `The Black Market hands out the underground licences that grant access to the market and its exclusive deals. Named underground elements include Sawyer and the Underground Exchange Directive. The live licence menu is the authority on what exists and what it costs — buy from surplus only, and postpone anything that would put rent at risk.
+      body: `The Black Market hands out the underground licences that grant access to the market and its exclusive deals. Named underground elements include Sawyer and the Underground Exchange Directive; the [recurring NPC reference](/guides/recurring-npcs) lists Sawyer with the other regulars and what each of them unlocks. The live licence menu is the authority on what exists and what it costs — buy from surplus only, and postpone anything that would put rent at risk.
 
 The Fence is the starting profession explicitly tied to contraband, and other occupations such as organ dealing unlock later through licences and machinery.`,
     },
@@ -394,10 +466,10 @@ Scavenged modules should not be assumed to be legitimate underground stock.`,
     { after: "keep-stolen-goods-concealed", slot: "guide-section-break-2" },
   ],
   faqIds: [],
-  relatedPageIds: ["fence", "shop-inventory"],
+  relatedPageIds: ["fence", "shop-inventory", "recurring-npcs"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-27",
 };
 
 export const radioactiveWastePage: PageContent = {

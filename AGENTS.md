@@ -22,7 +22,7 @@ A growth-relevant task is not complete until `GROWTH_LOG.md` is updated.
 
 ## Site Structure Rules
 
-- Content source of truth is `src/data/pages/*.ts` (home + `pages/guides/{start,trade,lines,production}.ts`), `src/data/faq.ts`, `src/data/site.ts`, and `src/data/navigation.ts`.
+- Content source of truth is `src/data/pages/*.ts` (home + `pages/guides/{start,trade,lines,production,cast}.ts`), `src/data/pages/zh-CN.json` (the Simplified Chinese mirror of every page), `src/data/faq.ts`, `src/data/site.ts`, and `src/data/navigation.ts`.
 - Page shell selection is stored in each page's `presentation.shell`; shell components live in `src/components/pages/`, and shared guide modules are defined in `src/types/modules.ts` and rendered by `src/components/content/ModuleRenderer.tsx`.
 - Make visual-theme changes in `src/data/theme.ts`, not in route-specific CSS.
 - Keep visual assets local under `public/images/` and register every used asset's path, dimensions, and alt text in `src/data/assets.ts`; source details are optional internal context and must not be invented.

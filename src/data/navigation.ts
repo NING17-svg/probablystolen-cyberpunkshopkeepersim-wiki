@@ -19,6 +19,7 @@ export const primaryNavigation: LocalizedNavigationItem[] = [
     children: [
       { href: "/guides/getting-started", labels: { "en-US": "Getting started", "zh-CN": "新手入门" } },
       { href: "/guides/starting-professions", labels: { "en-US": "Starting professions", "zh-CN": "初始职业" } },
+      { href: "/guides/recurring-npcs", labels: { "en-US": "Recurring NPCs and vendors", "zh-CN": "常驻人物与供应商" } },
     ],
   },
   {

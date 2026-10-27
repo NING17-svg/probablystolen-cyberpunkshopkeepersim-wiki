@@ -74,7 +74,7 @@ export const craftingMachinesPage: PageContent = {
       items: [
         {
           title: "Toolbox first.",
-          body: "It is purchasable from Jackson after day 14, stores tools including the blue and red labelers, and keys 1 through 9 equip the corresponding tool. Equip mode makes the selected tool run across many objects at once, which is what makes inspecting a stack of goods fast.",
+          body: "It is purchasable from Jackson after day 14, stores tools including the blue and red labelers, and keys 1 through 9 equip the corresponding tool. Equip mode makes the selected tool run across many objects at once, which is what makes inspecting a stack of goods fast. The [fake detection page](/guides/spot-fakes) has the per-category tool routing that goes with it.",
         },
         {
           title: "One machine you can feed.",
@@ -85,7 +85,7 @@ export const craftingMachinesPage: PageContent = {
           body: "Every machine needs power and most need a dedicated energy cell.",
         },
       ],
-      outro: `Jackson's machines run overnight on electricity, unpaid power gets cut, and the cheap power toggle on the night sheet is where you manage it.`,
+      outro: `Jackson's machines run overnight on electricity, unpaid power gets cut, and the cheap power toggle on the night sheet is where you manage it. Who Jackson is and what gates his stock is on the [recurring NPC page](/guides/recurring-npcs).`,
     },
     {
       id: "what-the-late-updates-added",
@@ -121,10 +121,10 @@ The [money and rent cycle](/guides/money-and-rent) covers the other costs that d
   ],
   adAnchors: [{ after: "purchase-order-from-jackson", slot: "guide-section-break" }],
   faqIds: [],
-  relatedPageIds: ["production-chains", "money-and-rent"],
+  relatedPageIds: ["production-chains", "money-and-rent", "recurring-npcs", "spot-fakes"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-27",
 };
 
 export const productionChainsPage: PageContent = {
@@ -508,7 +508,7 @@ Dr. Jackson sells an Aug scanner that assists with identification, though its st
         },
         {
           title: "Compare the face against wanted posters.",
-          body: "Because a match is a bounty-reporting decision and not an automatic execution.",
+          body: "Because a match is a bounty-reporting decision and not an automatic execution — the [customer reactions page](/guides/customer-reactions) has the reporting procedure and what a wrong call costs.",
         },
         { title: "Look for the tells your build highlights.", body: "" },
         {
@@ -565,7 +565,7 @@ Dr. Jackson sells an Aug scanner that assists with identification, though its st
   relatedPageIds: ["customer-reactions", "station-factions"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-27",
 };
 
 export const customerReactionsPage: PageContent = {
@@ -580,16 +580,16 @@ export const customerReactionsPage: PageContent = {
   h1: "Probably Stolen Customer Reactions Guide: The Four Choices",
   seoTitle: "Probably Stolen Customer Reactions Guide: The Four Choices",
   metaDescription:
-    "Every customer interaction resolves as one of four choices. This Probably Stolen customer reactions guide covers who walks in and what each answer costs.",
+    "Every customer interaction resolves as one of four choices. This Probably Stolen customer reactions guide covers who walks in, how to check a customer against a wanted poster, and what each answer costs.",
   summary:
-    "Every customer interaction resolves as one of four choices. This Probably Stolen customer reactions guide covers who walks in and what each answer costs.",
+    "Every customer interaction resolves as one of four choices. This Probably Stolen customer reactions guide covers who walks in, how to check a customer against a wanted poster, and what each answer costs.",
   hero: {
     eyebrow: "Trouble at the counter",
     subtitle: "",
     ctas: [{ label: "How to spot augs", href: "/guides/spot-augs" }],
   },
   quickAnswer:
-    "Probably Stolen customer reactions guide in short: customers arrive labelled by type, every interaction resolves as one of four choices, and a good margin and a clean shop are usually different answers rather than the same one.",
+    "The wanted-poster check is a separate question from the goods: match the customer against the poster details — a scar, a collar, an eyebrow — and report the person, never the pack. A match raises your Security standing and pays a bounty, with one public session recording a 100-credit payout; no match means Black Market standing drops and Revolution may answer back, so when no tell is visible, refusing is the safer answer.",
   keyFacts: [],
   modules: [
     {
@@ -622,7 +622,7 @@ export const customerReactionsPage: PageContent = {
           answer: "Authenticate first, then judge the customer",
         },
       ],
-      outro: `Recurring customers such as Dr. Jackson and Joe Wild also sell you things you need, so a mistaken call costs more than the shot: it can remove a vendor, a supplier or a regular income stream, and it damages attractiveness, which feeds back into the rent spiral.
+      outro: `Recurring customers such as Dr. Jackson and Joe Wild ([recurring NPC reference](/guides/recurring-npcs)) also sell you things you need, so a mistaken call costs more than the shot: it can remove a vendor, a supplier or a regular income stream, and it damages attractiveness, which feeds back into the rent spiral.
 
 If a customer's status is the question in front of you, the [Aug identification guide](/guides/spot-augs) covers the host case, where the answer is different from every other row in this table.`,
     },
@@ -652,6 +652,37 @@ If a customer's status is the question in front of you, the [Aug identification 
       outro: `Approving something questionable is also how heat attaches to you later. Reporting a wanted face pays a bounty and raises your standing with Security, and can earn you a threat from the person you snitched on.`,
     },
     {
+      id: "deciding-whether-to-report",
+      type: "steps",
+      heading: "How to decide whether to report the customer",
+      intro:
+        "Reporting is a Security action about a person, and it is decided before the goods matter:",
+      items: [
+        {
+          title: "Compare the customer against the poster details.",
+          body: "Community guides record posters being matched on a scar, a collar and an eyebrow, so check what the poster actually shows before you decide anything.",
+        },
+        {
+          title: "Check the customer, not their lot.",
+          body: "The poster check applies to the person in front of you independently of what they are selling, so report the person and not the pack.",
+        },
+        {
+          title: "Report only on a match.",
+          body: "A match pays a bounty and raises your standing with Security; one public session recorded a 100-credit payout, which is a dated example rather than a fixed rate.",
+        },
+        {
+          title: "Refuse instead when no tell is visible.",
+          body: "A false accusation costs reputation, and refusing costs you only the margin.",
+        },
+        {
+          title: "Authenticate the merchandise separately.",
+          body: "Whether the lot is genuine is a reputation-and-margin question with its own tools, handled on the [fake detection page](/guides/spot-fakes).",
+        },
+      ],
+      outro:
+        "Two decisions, two costs: the [Aug identification guide](/guides/spot-augs) covers the one case that ends in a shot rather than a report, and the [station factions page](/guides/station-factions) explains what each faction does with what you chose.",
+    },
+    {
       id: "who-shows-up-is-partly-your-choice",
       type: "prose",
       heading: "Who shows up is partly your choice",
@@ -661,7 +692,17 @@ If a customer's status is the question in front of you, the [Aug identification 
       id: "judge-the-goods-first",
       type: "prose",
       heading: "Judge the goods before you judge the customer",
-      body: `A counterfeit seller or a stolen-lot carrier needs the inspection and fake-detection tools first, and only then a judgement about the customer themselves. Do not treat a nervous scavenger as a criminal before their crate has been checked, and do not accuse a seller of counterfeiting before the lot has been authenticated with the glass and handbook — the [fake detection page](/guides/spot-fakes) has the three-check order.`,
+      body: `A counterfeit seller or a stolen-lot carrier needs the inspection tools first, and only then a judgement about the customer themselves. Do not call a nervous scavenger a criminal before their crate has been checked, and do not accuse a seller of counterfeiting before the lot has been authenticated with the glass and handbook — the [fake detection page](/guides/spot-fakes) has the tool routing per category.
+
+Keep the two verdicts apart: authenticating the lot protects your margin and your name, while reporting the customer moves faction standing. A lot can be genuine while the seller is on a poster, and a lot can be fake while the seller is perfectly ordinary, so neither check substitutes for the other.`,
+    },
+    {
+      id: "the-cost-is-asymmetric",
+      type: "prose",
+      heading: "The cost is asymmetric, so refuse when nothing is visible",
+      body: `Reporting a listed target improves your standing with Security. Reporting someone who is not listed is the opposite: Black Market standing drops and Revolution may retaliate, with the threat sometimes raised only after the customer has already left. A false accusation damages your reputation on top of that, and reputation is what buys access to customers, licences and protection.
+
+That asymmetry is the closing rule for this page. When you can see a tell, report. When you cannot, refusing costs you only the margin from a bet you were going to lose anyway, while a wrong report costs standing and invites retaliation at the same time.`,
     },
   ],
   adAnchors: [
@@ -672,5 +713,5 @@ If a customer's status is the question in front of you, the [Aug identification 
   relatedPageIds: ["spot-augs", "display-case", "spot-fakes"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-27",
 };

@@ -17,7 +17,7 @@
     "summary": "Probably Stolen 中文攻略：从开店第一周到租金、商品、生产、假货、Aug 与派系。",
     "hero": {
       "eyebrow": "非官方游戏攻略",
-      "subtitle": "在赛博朋克空间站经营一家借贷开出的店铺：交租、进货、布置展示柜、安排夜间生产，并判断每位顾客的交易风险。这里按玩家任务整理了 20 篇攻略。",
+      "subtitle": "在赛博朋克空间站经营一家借贷开出的店铺：交租、进货、布置展示柜、安排夜间生产，并判断每位顾客的交易风险。这里按玩家任务整理了 21 篇攻略。",
       "ctas": [
         {
           "label": "新手攻略：开店第一周怎么过",
@@ -51,6 +51,16 @@
                 "label": "初始职业怎么选",
                 "href": "/zh-CN/guides/starting-professions",
                 "description": "比较农夫、水商、枪匠等开局的收益与风险。"
+              }
+            ]
+          },
+          {
+            "title": "常驻人物",
+            "items": [
+              {
+                "label": "常驻人物与供应商",
+                "href": "/zh-CN/guides/recurring-npcs",
+                "description": "导师、杰克逊博士和乔·怀尔德分别是谁、各自提供什么、什么时候解锁。"
               }
             ]
           }
@@ -107,7 +117,7 @@
               {
                 "label": "识别假货",
                 "href": "/zh-CN/guides/spot-fakes",
-                "description": "用放大镜与手册检查标志、封条和颜色。"
+                "description": "各类假货该用哪种工具，以及发现问题后的四种应对。"
               },
               {
                 "label": "地下市场",
@@ -211,7 +221,7 @@
               {
                 "label": "顾客应对",
                 "href": "/zh-CN/guides/customer-reactions",
-                "description": "批准、拒绝、举报或无视的后果。"
+                "description": "来店顾客、与通缉海报的比对方法，以及批准、拒绝、举报或无视的后果。"
               }
             ]
           }
@@ -235,7 +245,7 @@
       "CollectionPage"
     ],
     "sourceStatus": "internal",
-    "lastReviewed": "2026-10-20"
+    "lastReviewed": "2026-10-27"
   },
   {
     "id": "zh-CN:getting-started",
@@ -270,7 +280,7 @@
         "id": "four-tutorial-beats",
         "type": "steps",
         "heading": "教程中的四个要点",
-        "intro": "",
+        "intro": "导师会安排每局都会重复的四个流程。他是为启动贷款放款的人，也是第一个走进店铺的 NPC——[常驻人物索引](/zh-CN/guides/recurring-npcs)列出了他和其他常驻人物各自提供什么：",
         "items": [
           {
             "title": "保持食品货架有货",
@@ -289,7 +299,7 @@
             "body": "用放大镜和手册核对海明威香烟的标志、封条与颜色。"
           }
         ],
-        "outro": "教程第一天不能正常使用展示柜；从第二天开始按开门前布置的顺序操作。"
+        "outro": "操作界面看起来陌生时，重新读一遍操作说明。UPDATE 049 新增的工具层——工具箱与装备模式——在[假货攻略](/zh-CN/guides/spot-fakes)里讲清楚了。"
       },
       {
         "id": "stage-the-display-case",
@@ -301,7 +311,7 @@
         "id": "catch-the-first-counterfeit-pack",
         "type": "prose",
         "heading": "识别第一包假烟",
-        "body": "对照手册检查海明威香烟包装。封条破损、标志形状错误或颜色不符，都可以作为质疑卖家的证据；确认一处差异后再提出指控。指错会损失声望，漏掉假货并转售也会损害名声。完整检查顺序见[假货攻略](/zh-CN/guides/spot-fakes)。"
+        "body": "对照手册检查海明威香烟包装。封条破损、标志形状错误或颜色不符，都可以作为质疑卖家的证据；确认一处差异后再提出指控，指错会损失声望。\n\n后面的批次不只要靠放大镜。紫外线灯负责重新贴标的商品与化学成分，杰克逊博士的工具箱则能让一件工具一次套用到整批货——各类别该用哪种工具、查出不合格之后怎么办，见[假货攻略](/zh-CN/guides/spot-fakes)。\n\n假货无论你是否主动寻找都会从码头到来，转卖掉没查出的假货同样会损害名声。"
       },
       {
         "id": "count-the-rent",
@@ -391,13 +401,14 @@
     "relatedPageIds": [
       "zh-CN:display-case",
       "zh-CN:money-and-rent",
-      "zh-CN:spot-fakes"
+      "zh-CN:spot-fakes",
+      "zh-CN:recurring-npcs"
     ],
     "schemaTypes": [
       "Article"
     ],
     "sourceStatus": "internal",
-    "lastReviewed": "2026-10-20"
+    "lastReviewed": "2026-10-27"
   },
   {
     "id": "zh-CN:starting-professions",
@@ -676,10 +687,22 @@
         "type": "entity-grid",
         "heading": "租金之外还要算哪些成本",
         "items": [
-          { "title": "交易许可证", "summary": "早期版本解锁地下市场商品通常约需 1,500 信用点；以当前游戏内价格为准。" },
-          { "title": "夜间电费", "summary": "设备运行会持续耗电。Wilds 网络的非法接电升级可省电费，但会带来派系人情债。" },
-          { "title": "黑市声望", "summary": "声望跌到 −40 是已记录的明显恶化节点，不能只按商品利润衡量交易。" },
-          { "title": "乔·怀尔德的保险", "summary": "保险可能帮你找回失窃物品，却补不回因其他问题流失的顾客。" }
+          {
+            "title": "交易许可证",
+            "summary": "早期版本解锁地下市场商品通常约需 1,500 信用点；以当前游戏内价格为准。"
+          },
+          {
+            "title": "夜间电费",
+            "summary": "设备运行会持续耗电。Wilds 网络的非法接电升级可省电费，但会带来派系人情债。"
+          },
+          {
+            "title": "黑市声望",
+            "summary": "声望跌到 −40 是已记录的明显恶化节点，不能只按商品利润衡量交易。"
+          },
+          {
+            "title": "乔·怀尔德的保险",
+            "summary": "保险可能帮你找回失窃物品，却补不回因其他问题流失的顾客。"
+          }
         ],
         "outro": "先学会留租金，再尝试高风险拾荒；先学会验货，再给贵重商品定价。"
       }
@@ -1122,8 +1145,8 @@
     },
     "h1": "Probably Stolen 怎么识别假货",
     "seoTitle": "Probably Stolen 怎么识别假货",
-    "metaDescription": "用放大镜查看这批货，对照手册检查标志、封条与颜色。只要发现一处确凿不符，就可以向卖家指出问题并压低价格；误判则会损失声望。",
-    "summary": "用放大镜查看这批货，对照手册检查标志、封条与颜色。",
+    "metaDescription": "用放大镜查看这批货，对照手册检查标志、封条与颜色。只要发现一处确凿不符，就可以向卖家指出问题并压低价格；误判则会损失声望。这份攻略还给出各类假货该用哪种工具，以及第 14 天工具箱的用法。",
+    "summary": "用放大镜查看这批货，对照手册检查标志、封条与颜色；各类假货该用哪种工具，以及第 14 天工具箱的用法。",
     "hero": {
       "eyebrow": "游戏攻略",
       "subtitle": "",
@@ -1135,33 +1158,115 @@
         }
       ]
     },
-    "quickAnswer": "用放大镜查看这批货，对照手册检查标志、封条与颜色。只要发现一处确凿不符，就可以向卖家指出问题并压低价格；误判则会损失声望。",
+    "quickAnswer": "放大镜和手册负责外观特征——标志形状、破损的封条、与色卡不符的颜色——紫外线灯负责重新贴标的商品和化学成分；不过自 2026-09-20 的更新报告起，你无法再对自己并不拥有的物品使用紫外线检测。第 14 天之后从杰克逊博士处买工具箱，把工具放在 1 到 9 的快捷位，配合装备模式与多选物品，一轮就能验完整批货。",
     "keyFacts": [],
     "modules": [
       {
         "id": "the-three-checks",
         "type": "steps",
         "heading": "用放大镜和手册做三项检查",
-        "intro": "",
+        "intro": "导师在早期给你两件工具，它们是整个鉴定体系的底座：一把放大镜和一本手册。手册里带有海明威香烟的鉴定指南和一张色卡。水商开局拿到的是检测工具包；其他职业则要从杰克逊博士处买水贸易手册。",
         "items": [
           {
             "title": "用放大镜查看货品",
-            "body": "先看包装或物品的实际细节。"
+            "body": "用在香烟包装或稀有商品上。"
           },
           {
             "title": "打开对应手册",
-            "body": "海明威香烟有真伪对照和颜色检查信息。"
+            "body": "用于查询对照。"
           },
           {
-            "title": "核对标志、封条与颜色",
-            "body": "发现一处确凿差异再提出质疑。"
+            "title": "核对标志、封条与颜色三列",
+            "body": "手册上的标志、安全封条与色卡。"
           },
           {
-            "title": "不确定时可以拒绝交易",
-            "body": "不要凭猜测指控卖家。"
+            "title": "发现一处确凿不符就停下",
+            "body": "当面指出卖家的货有问题。"
+          },
+          {
+            "title": "没有失败项就拒绝这批货",
+            "body": "没有失败项但价格不对劲时，拒绝这批货。"
           }
         ],
-        "outro": "水质和稀有商品还要使用各自的检测或估值工具；“是赃物”和“是假货”是两种不同问题。"
+        "outro": "海明威香烟从不缺少安全封条，所以封条缺失或破损本身就足以判定为假货。假货的估值也一贯低于真品；假武器或假许可证则是搜查风险，而不是降价机会。\n\n把两个问题分开：赃物可能是真的但仍然烫手，假货可能是冷的但一文不值。"
+      },
+      {
+        "id": "which-tool-catches-which-fake",
+        "type": "data-table",
+        "heading": "哪一种工具能查出哪一种假货",
+        "intro": "按类别选择真正能回答问题的工具，不要什么都指望放大镜：",
+        "columns": [
+          {
+            "key": "category",
+            "label": "类别"
+          },
+          {
+            "key": "tell",
+            "label": "破绽"
+          },
+          {
+            "key": "tool",
+            "label": "能查出问题的工具"
+          }
+        ],
+        "rows": [
+          {
+            "category": "海明威香烟",
+            "tell": "封闭端标志与开口端不一致、封条已经破损，或颜色与色卡不符",
+            "tool": "放大镜，加上手册里的海明威对照表与色卡"
+          },
+          {
+            "category": "水桶",
+            "tell": "纯度、重金属与化学污染物的读数",
+            "tool": "检测或过滤工具包，加上用于认证等级的水贸易手册"
+          },
+          {
+            "category": "武器",
+            "tell": "编号与单据对不上",
+            "tool": "编号核对与笔"
+          },
+          {
+            "category": "稀有商品",
+            "tell": "不做估值就会高价买下的码头残次品",
+            "tool": "专门的估值检查——稀有商品按自己的方式估值，不靠外观破绽"
+          }
+        ],
+        "outro": "放大镜读不出纯度数字，紫外线灯也看不出标志形状不对。水桶等级有专门的顺序，见[水商攻略](/zh-CN/guides/water-merchant)。"
+      },
+      {
+        "id": "the-uv-filter",
+        "type": "prose",
+        "heading": "紫外线灯，以及你再也拿不到的免费检测",
+        "body": "紫外线灯是第二件检测工具，它能回答放大镜回答不了的问题：重新贴标的商品与化学成分。这项细节来自 2026-09-20 的演示攻略，所以只能当作「已报告」而不是「已确认」。\n\n同一份攻略还记录了一项变化，正好废掉旧攻略依赖的做法：更新后无法对自己并不拥有的物品使用紫外线检测。也就是说，截至 2026-09-20，免费的供应商检测已经不存在——你无法在付款前用紫外线灯检查卖家的货，要么先付款再检查，要么只靠外观特征判断。\n\n这会改变柜台上的顺序：放大镜、手册和色卡必须在付款前完成把关，紫外线灯变成买下之后的检查。请把它当作截至观察日的状态，而不是长期有效的规则；每次更新后回看一次操作界面即可。"
+      },
+      {
+        "id": "the-toolbox-batch-workflow",
+        "type": "steps",
+        "heading": "用一件工具验完整批货",
+        "intro": "UPDATE 049 增加的工具层，正是批量鉴定得以成立的原因：",
+        "items": [
+          {
+            "title": "第 14 天之后从杰克逊博士处买工具箱。",
+            "body": "它能收纳你拥有的工具，包括蓝红贴标机。购买顺序由[生产设备攻略](/zh-CN/guides/crafting-machines)负责。"
+          },
+          {
+            "title": "把工具放在 1 到 9 的快捷位。",
+            "body": "按 1 到 9 会装备对应工具，需要的检测只差一次按键。"
+          },
+          {
+            "title": "先选中整批货再装备工具。",
+            "body": "多选拖拽才是把一批货当成一批来验的前提。"
+          },
+          {
+            "title": "打开装备模式。",
+            "body": "选中的工具会一次作用到选区里的每个物品上。"
+          },
+          {
+            "title": "逐项对照上面的分类表。",
+            "body": "放大镜回答标志、封条与颜色，紫外线灯回答重新贴标与化学成分，编号核对回答武器单据。"
+          }
+        ],
+        "outro": "这就是三项检查的批量形式：一批货跑一次，选区里的每个物品要么通过，要么被标出来。"
       },
       {
         "id": "four-ways-to-answer-a-fake",
@@ -1210,7 +1315,7 @@
         "id": "why-fakes-show-up-at-all",
         "type": "prose",
         "heading": "假货为什么会进店",
-        "body": "展示柜中的香烟会吸引香烟卖家，也可能把码头假货带到柜台。即使没有主动寻找，假货仍会随进货出现；买入或转售前应检查。如何布置陈列见[展示柜攻略](/zh-CN/guides/display-case)。"
+        "body": "你不需要刻意去找。展示柜里的香烟会吸引香烟卖家，也可能带来码头假货，所以[展示柜攻略](/zh-CN/guides/display-case)会把陈列选择和检查能力放在一起讲。假货无论你是否主动寻找都会从码头到来，转卖掉没查出的假货同样会损害名声。\n\n举报通缉犯与鉴定真伪是两件不同的事：海报比对针对的是站在柜台前的顾客，而不是他手里的货，一旦对上就可能拿到赏金。不要把「这包货是假的」和「这张脸在海报上」混为一谈——[顾客应对攻略](/zh-CN/guides/customer-reactions)有完整的举报流程。"
       }
     ],
     "adAnchors": [
@@ -1222,13 +1327,15 @@
     "faqIds": [],
     "relatedPageIds": [
       "zh-CN:display-case",
-      "zh-CN:underground-market"
+      "zh-CN:underground-market",
+      "zh-CN:customer-reactions",
+      "zh-CN:recurring-npcs"
     ],
     "schemaTypes": [
       "Article"
     ],
     "sourceStatus": "internal",
-    "lastReviewed": "2026-10-20"
+    "lastReviewed": "2026-10-27"
   },
   {
     "id": "zh-CN:underground-market",
@@ -1264,7 +1371,7 @@
         "id": "how-access-works",
         "type": "prose",
         "heading": "地下市场如何开放",
-        "body": "地下交易依赖相应许可证。查看当前游戏内菜单确认可买的许可、价格与解锁条件；早期测试中交易许可约需 1,500 信用点，不能当成固定现价。销赃商与违禁品交易关系最直接。"
+        "body": "地下交易依赖相应许可证。查看当前游戏内菜单确认可买的许可、价格与解锁条件；早期测试中交易许可约需 1,500 信用点，不能当成固定现价。销赃商与违禁品交易关系最直接。有记录的地下势力包括索耶（Sawyer）和地下交易所指令；[常驻人物索引](/zh-CN/guides/recurring-npcs)把索耶和其他常驻人物放在一起，并说明各自能解锁什么。"
       },
       {
         "id": "licences-are-bought-from-surplus",
@@ -1342,13 +1449,14 @@
     "faqIds": [],
     "relatedPageIds": [
       "zh-CN:fence",
-      "zh-CN:shop-inventory"
+      "zh-CN:shop-inventory",
+      "zh-CN:recurring-npcs"
     ],
     "schemaTypes": [
       "Article"
     ],
     "sourceStatus": "internal",
-    "lastReviewed": "2026-10-20"
+    "lastReviewed": "2026-10-27"
   },
   {
     "id": "zh-CN:radioactive-waste",
@@ -1761,7 +1869,7 @@
         "id": "equipment-on-the-line",
         "type": "prose",
         "heading": "需要哪些设备",
-        "body": "检测工具、净水器、贴标机、瓶子打印机和杰克逊博士的工具箱共同支撑水商路线。Wild Network 的低价供水设施可以补充原水，但出售前仍要检测。设备取得顺序见[生产设备攻略](/zh-CN/guides/crafting-machines)。"
+        "body": "检测工具、净水器、贴标机、瓶子打印机和杰克逊博士的工具箱共同支撑水商路线。Wild Network 的低价供水设施可以补充原水，但出售前仍要检测。设备取得顺序见[生产设备攻略](/zh-CN/guides/crafting-machines)，杰克逊博士和乔·怀尔德是谁、他们的库存何时开放见[常驻人物索引](/zh-CN/guides/recurring-npcs)。"
       },
       {
         "id": "demand-moves-the-price",
@@ -1779,13 +1887,14 @@
     "faqIds": [],
     "relatedPageIds": [
       "zh-CN:production-chains",
-      "zh-CN:crafting-machines"
+      "zh-CN:crafting-machines",
+      "zh-CN:recurring-npcs"
     ],
     "schemaTypes": [
       "Article"
     ],
     "sourceStatus": "internal",
-    "lastReviewed": "2026-10-20"
+    "lastReviewed": "2026-10-27"
   },
   {
     "id": "zh-CN:fence",
@@ -2095,7 +2204,7 @@
         "items": [
           {
             "title": "确定正在经营的生产链",
-            "body": "先看原料和销路，再选机器。"
+            "body": "先看原料和销路，再选机器，而不是挑槽位最多的那台——[生产链攻略](/zh-CN/guides/production-chains)列出了每台设备应该产出什么。"
           },
           {
             "title": "确认槽位、电池和夜间电力",
@@ -2103,14 +2212,14 @@
           },
           {
             "title": "衡量工具箱是否值得购买",
-            "body": "工具箱在较后天数开放，可收纳贴标等工具。"
+            "body": "第 14 天之后可以从杰克逊博士处买到，它能收纳蓝红贴标机等工具，1 到 9 的快捷键会装备对应工具；装备模式能让选中的工具一次作用于多个物品，批量验货因此才变得可行。配合使用的分类工具选择见[假货攻略](/zh-CN/guides/spot-fakes)。"
           },
           {
             "title": "留够下一期租金",
             "body": "不要用现金缓冲买暂时用不上的设备。"
           }
         ],
-        "outro": "不同路线的原料与产出见[生产链攻略](/zh-CN/guides/production-chains)。"
+        "outro": "杰克逊博士的设备夜间运行要用电，未付费电会被断电，便宜电力的开关在夜间界面。杰克逊博士是谁、他的库存受什么限制，见[常驻人物索引](/zh-CN/guides/recurring-npcs)。"
       },
       {
         "id": "what-the-late-updates-added",
@@ -2134,13 +2243,15 @@
     "faqIds": [],
     "relatedPageIds": [
       "zh-CN:production-chains",
-      "zh-CN:money-and-rent"
+      "zh-CN:money-and-rent",
+      "zh-CN:recurring-npcs",
+      "zh-CN:spot-fakes"
     ],
     "schemaTypes": [
       "Article"
     ],
     "sourceStatus": "internal",
-    "lastReviewed": "2026-10-20"
+    "lastReviewed": "2026-10-27"
   },
   {
     "id": "zh-CN:production-chains",
@@ -2629,7 +2740,7 @@
           },
           {
             "title": "对照通缉海报",
-            "body": "通缉犯通常应举报领赏，不等于 Aug。"
+            "body": "通缉犯通常应举报领赏，不等于 Aug——[顾客应对攻略](/zh-CN/guides/customer-reactions)讲清了举报流程和误判的代价。"
           },
           {
             "title": "核对外观和行为线索",
@@ -2699,7 +2810,7 @@
       "Article"
     ],
     "sourceStatus": "internal",
-    "lastReviewed": "2026-10-20"
+    "lastReviewed": "2026-10-27"
   },
   {
     "id": "zh-CN:customer-reactions",
@@ -2715,8 +2826,8 @@
     },
     "h1": "Probably Stolen 顾客应对攻略：四种选择",
     "seoTitle": "Probably Stolen 顾客应对攻略：四种选择",
-    "metaDescription": "顾客会以不同身份进店，你可以批准、拒绝、举报或视而不见。先判断货物和身份，再考虑利润、声望与安保后果；赚得最多的选择未必是最安全的选择。",
-    "summary": "顾客会以不同身份进店，你可以批准、拒绝、举报或视而不见。",
+    "metaDescription": "顾客会以不同身份进店，你可以批准、拒绝、举报或视而不见。先判断货物和身份，再考虑利润、声望与安保后果；这份攻略补充了如何把顾客与通缉海报比对，以及举报能拿到什么、要付出什么。",
+    "summary": "顾客会以不同身份进店，你可以批准、拒绝、举报或视而不见。先判断货物和身份，再考虑利润、声望与安保后果；这份攻略补充了如何把顾客与通缉海报比对，以及举报能拿到什么、要付出什么。",
     "hero": {
       "eyebrow": "游戏攻略",
       "subtitle": "",
@@ -2727,7 +2838,7 @@
         }
       ]
     },
-    "quickAnswer": "顾客会以不同身份进店，你可以批准、拒绝、举报或视而不见。先判断货物和身份，再考虑利润、声望与安保后果；赚得最多的选择未必是最安全的选择。",
+    "quickAnswer": "通缉海报的比对和货物本身是两件事：把顾客与海报上的特征对上——疤、领子、眉毛——并且举报人，不要举报货。命中会提升你的安保声望并带来赏金，公开记录中有一次支付了 100 信用点；没命中则会让黑市声望下降，还可能招来革命派的报复，所以看不到任何线索时，拒绝交易才是更安全的选择。",
     "keyFacts": [],
     "modules": [
       {
@@ -2747,31 +2858,39 @@
         ],
         "rows": [
           {
-            "type": "导师、杰克逊博士、乔·怀尔德等关键人物",
-            "answer": "正常交易，不要射击。"
+            "type": "导师、杰克逊博士、乔·怀尔德等关键 NPC",
+            "answer": "受保护且不可射击，正常交易即可"
           },
           {
-            "type": "疑似 Aug",
-            "answer": "核对线索与扫描结果，不确定就不要开枪。"
+            "type": "Aug 宿主",
+            "answer": "确认后开枪"
           },
           {
             "type": "通缉犯",
-            "answer": "对照海报后举报，而非直接处决。"
+            "answer": "举报而不是处决"
           },
           {
             "type": "安保调查员",
-            "answer": "先看检查与货品风险。"
+            "answer": "可以配合，也可以装作不知道"
           },
           {
-            "type": "革命派或上层区顾客",
-            "answer": "考虑交易的派系后果。"
+            "type": "革命派",
+            "answer": "按派系政治处理"
           },
           {
-            "type": "可疑货品卖家",
-            "answer": "先检查货物，不凭外表定罪。"
+            "type": "堕落的上层区顾客",
+            "answer": "砍价，或者拒绝"
+          },
+          {
+            "type": "拿着可疑货品的紧张拾荒者",
+            "answer": "先检查货箱，不要凭外表定罪"
+          },
+          {
+            "type": "假货卖家或携带赃物的人",
+            "answer": "先鉴定真伪，再判断顾客"
           }
         ],
-        "outro": "识别 Aug 的具体顺序见[Aug 攻略](/zh-CN/guides/spot-augs)。"
+        "outro": "杰克逊博士、乔·怀尔德这些常驻人物同时也卖你需要的东西，所以认错人的代价比开错枪更大——他们是谁、能解锁什么见[常驻人物索引](/zh-CN/guides/recurring-npcs)。识别 Aug 的具体顺序见[Aug 攻略](/zh-CN/guides/spot-augs)。"
       },
       {
         "id": "the-four-choices",
@@ -2805,8 +2924,8 @@
           },
           {
             "choice": "举报",
-            "get": "通缉犯赏金和安保声望",
-            "costs": "可能遭到报复。"
+            "get": "命中时拿到通缉犯赏金并提升安保声望",
+            "costs": "不在名单上会损失黑市声望，并可能招来革命派报复"
           },
           {
             "choice": "无视",
@@ -2814,7 +2933,36 @@
             "costs": "派系仍可能观察你的选择。"
           }
         ],
-        "outro": ""
+        "outro": "批准有问题的货品，也等于让热度之后找上你。举报名单上的人能拿到赏金并提升安保声望，也可能因此招来被你举报者的威胁。"
+      },
+      {
+        "id": "deciding-whether-to-report",
+        "type": "steps",
+        "heading": "如何决定要不要举报顾客",
+        "intro": "举报是针对某个人的安保行为，判断它的时候货物还不重要：",
+        "items": [
+          {
+            "title": "把顾客和海报上的特征对上。",
+            "body": "社区攻略记录过按疤痕、领子和眉毛比对海报，所以先看清海报上到底写了什么。"
+          },
+          {
+            "title": "查的是人，不是货。",
+            "body": "海报比对针对的是站在柜台前的顾客，与他卖什么无关，所以举报人，不要举报那批货。"
+          },
+          {
+            "title": "确认命中再举报。",
+            "body": "命中会给你赏金并提升安保声望；公开记录中有一次是 100 信用点，这只是一个有日期的实例，不是固定费率。"
+          },
+          {
+            "title": "看不到线索就拒绝。",
+            "body": "错误指控会损失声望，而拒绝只会损失利润。"
+          },
+          {
+            "title": "货物另行鉴定。",
+            "body": "货是否成真是另一个问题，涉及声望与利润，用自己的工具处理，见[假货攻略](/zh-CN/guides/spot-fakes)。"
+          }
+        ],
+        "outro": "两个判断，两种代价：[Aug 攻略](/zh-CN/guides/spot-augs)讲的是唯一会以开枪收场而不是举报的情况，[派系攻略](/zh-CN/guides/station-factions)讲各派系会如何回应你的选择。"
       },
       {
         "id": "who-shows-up-is-partly-your-choice",
@@ -2826,7 +2974,13 @@
         "id": "judge-the-goods-first",
         "type": "prose",
         "heading": "先检查货，再判断人",
-        "body": "可疑卖家和紧张的拾荒者未必是罪犯。先用放大镜、手册与估值检查批货，再决定交易或指控；三项真伪检查见[假货攻略](/zh-CN/guides/spot-fakes)。"
+        "body": "假货卖家或携带赃物的人，先要用检测工具，然后才轮到对顾客本人的判断。不要在货箱还没检查前就把紧张的拾荒者当成罪犯，也不要在用放大镜和手册验过这批货之前就指控卖家卖假货——各类别该用哪种工具，见[假货攻略](/zh-CN/guides/spot-fakes)。\n\n把两个结论分开：鉴定货物保住的是利润和名声，举报顾客改变的是派系声望。货可能是真的而卖家在通缉名单上，货也可能是假的而卖家完全正常，所以两者不能互相替代。"
+      },
+      {
+        "id": "the-cost-is-asymmetric",
+        "type": "prose",
+        "heading": "代价是不对称的，所以看不到线索就拒绝",
+        "body": "举报名单上的人会提升你在安保方面的声望；举报不在名单上的人则正好相反：黑市声望下降，还可能招来革命派的报复，而且威胁有时是在顾客离开之后才提出的。错误指控还会额外损失声望，而声望正是换取顾客、许可证与保护的东西。\n\n这个不对称就是本页的收尾规则：看得见线索就举报；看不见就拒绝，因为拒绝只会损失一笔你本来就要输的赌注的利润，而错误举报会同时损失声望并招来报复。"
       }
     ],
     "adAnchors": [
@@ -2849,6 +3003,244 @@
       "Article"
     ],
     "sourceStatus": "internal",
-    "lastReviewed": "2026-10-20"
+    "lastReviewed": "2026-10-27"
+  },
+  {
+    "id": "zh-CN:recurring-npcs",
+    "translationKey": "recurring-npcs",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "slug": "recurring-npcs",
+    "url": "/zh-CN/guides/recurring-npcs",
+    "pageType": "guides",
+    "presentation": {
+      "shell": "content",
+      "variant": "reading-right-rail"
+    },
+    "h1": "Probably Stolen 常驻人物与供应商攻略：他们是谁",
+    "seoTitle": "Probably Stolen 常驻人物与供应商攻略：他们是谁",
+    "metaDescription": "导师、杰克逊博士和乔·怀尔德会反复出现在你的柜台前。这份 Probably Stolen 常驻人物攻略说明他们分别是谁、提供什么，以及各自的解锁条件。",
+    "summary": "导师、杰克逊博士和乔·怀尔德会反复出现在你的柜台前。这份 Probably Stolen 常驻人物攻略说明他们分别是谁、提供什么，以及各自的解锁条件。",
+    "hero": {
+      "eyebrow": "游戏攻略",
+      "subtitle": "",
+      "ctas": [
+        {
+          "label": "新手攻略：开店第一周怎么过",
+          "href": "/zh-CN/guides/getting-started"
+        }
+      ]
+    },
+    "quickAnswer": "有三位人物会反复来到你的柜台。导师是启动贷款的放款人，也是安排教程流程的声音。杰克逊博士在大厅出售所有设备、工具箱和水贸易手册，他的库存会随游戏天数和你已有的独特物品开放。乔·怀尔德代表 Wilds Network，他的防盗保险不是一次性购买，而是每天睡前的夜间界面上的一个开关。",
+    "keyFacts": [],
+    "modules": [
+      {
+        "id": "who-keeps-coming-back",
+        "type": "data-table",
+        "heading": "谁会反复来到柜台前",
+        "intro": "这些名字在本站其他页面都已经出现过。这一页把他们集中起来，让你不用在四篇攻略之间来回找，就能知道他是谁、能提供什么、什么时候解锁。",
+        "columns": [
+          {
+            "key": "who",
+            "label": "人物"
+          },
+          {
+            "key": "what",
+            "label": "身份"
+          },
+          {
+            "key": "supplies",
+            "label": "提供什么"
+          },
+          {
+            "key": "unlocks",
+            "label": "如何解锁"
+          }
+        ],
+        "rows": [
+          {
+            "who": "导师",
+            "what": "放款人与教程引导者；第一个走进店铺的 NPC",
+            "supplies": "启动贷款，以及每局都会重复的流程提示",
+            "unlocks": "从第一天就在"
+          },
+          {
+            "who": "杰克逊博士",
+            "what": "设备供应商，在大厅出售",
+            "supplies": "设备与电力、第 14 天之后的工具箱、水贸易手册、Aug 扫描仪",
+            "unlocks": "游戏天数加上你已有的独特物品；扫描仪跟随安保的威胁状态"
+          },
+          {
+            "who": "乔·怀尔德",
+            "what": "Wilds Network 的代表",
+            "supplies": "防盗保险、Wilds Network 的商品，以及 Gutterflow on Tap、Rustwater on Tap 等水龙头",
+            "unlocks": "保险是夜间界面上的每晚开关；水龙头属于后期购买"
+          },
+          {
+            "who": "索耶（Sawyer）",
+            "what": "黑市一方的有名字的地下势力",
+            "supplies": "没有记录在案的供货清单",
+            "unlocks": "许可证由黑市发放，所以索耶本人没有可解锁的东西"
+          },
+          {
+            "who": "屠夫",
+            "what": "在社区 NPC 参考中被提到",
+            "supplies": "没有记录在案的身份或供货清单",
+            "unlocks": "没有记录在案的可解锁内容"
+          }
+        ],
+        "outro": "在空间站活动的四个势力是另一份名单，那份由[派系攻略](/zh-CN/guides/station-factions)负责。"
+      },
+      {
+        "id": "the-mentor",
+        "type": "steps",
+        "heading": "导师：每局都会要求你做的事",
+        "items": [
+          {
+            "title": "接受启动贷款。",
+            "body": "他就是为店铺提供资金的放款人。"
+          },
+          {
+            "title": "保持食品货架有货。",
+            "body": "空货架会减少进店顾客，因为吸引力在这里等同于客流，而不是一个装饰性的评分。"
+          },
+          {
+            "title": "睡前清空店外柜台。",
+            "body": "留在外面的货物过夜就会被偷走，除非乔·怀尔德的保险覆盖。"
+          },
+          {
+            "title": "用展示柜筛选顾客。",
+            "body": "它在你的左手边，用来决定进来的是哪类买家，而不是装饰房间。"
+          },
+          {
+            "title": "去拾荒。",
+            "body": "他会把材料任务交给你；[夜间拾荒攻略](/zh-CN/guides/night-scavenging)讲清了路线顺序和受伤概率。"
+          },
+          {
+            "title": "检查码头送来的货。",
+            "body": "送来的是一箱海明威假烟，他会交给你放大镜和手册让你自己验。"
+          }
+        ],
+        "outro": "完整的开局第一周顺序见[新手攻略](/zh-CN/guides/getting-started)。",
+        "intro": "其中四件事就是每局都会重复的教程流程——保持食品货架有货、睡前清空店外柜台、用展示柜筛选顾客、检查码头送来的货。启动贷款和拾荒任务夹在前后。"
+      },
+      {
+        "id": "dr-jackson",
+        "type": "steps",
+        "heading": "杰克逊博士：他卖什么，什么时候开放",
+        "items": [
+          {
+            "title": "在大厅购买。",
+            "body": "杰克逊博士就是设备供应商，并在大厅出售；他的设备夜间运行要用电，所以电费是另一笔每晚的开销。"
+          },
+          {
+            "title": "同时看游戏天数和你已有的独特物品。",
+            "body": "他的库存受游玩天数和你已拥有的独特物品限制，而且同款独特物品不能重复购买——先排好顺序再花钱。"
+          },
+          {
+            "title": "第 14 天之后拿工具箱。",
+            "body": "工具箱能收纳蓝红贴标机等工具，1 到 9 的快捷键会装备对应工具。完整的购买顺序见[生产设备攻略](/zh-CN/guides/crafting-machines)。"
+          },
+          {
+            "title": "做水的那条线买水贸易手册。",
+            "body": "它在 48.3.10 补丁中加入，用于认证纯度、重金属与化学污染物的水等级。"
+          },
+          {
+            "title": "只在威胁存在时买 Aug 扫描仪。",
+            "body": "它的库存跟随安保的威胁状态，所以不是一直都在货架上。"
+          }
+        ],
+        "outro": "杰克逊博士曾把这家店卖给上一任店主，而那位店主后来被逮捕了，所以一家店一开始就可能带着这一局没人买过的设备。"
+      },
+      {
+        "id": "joe-wild",
+        "type": "steps",
+        "heading": "乔·怀尔德：夜间界面上的开关",
+        "items": [
+          {
+            "title": "每晚睡前打开保险。",
+            "body": "防盗保险是夜间界面上的每日订阅，而不是一次性购买，所以每晚都要决定要不要付。"
+          },
+          {
+            "title": "外面有易被偷的货物时再付。",
+            "body": "保险可能帮你找回失窃物品，却补不回因此流失的顾客。"
+          },
+          {
+            "title": "没有暴露在外的东西时可以跳过。",
+            "body": "当过夜没有易被偷的货物时，不买保险是可行的。"
+          },
+          {
+            "title": "水龙头属于后期购买。",
+            "body": "Gutterflow on Tap 和 Rustwater on Tap 是 Wilds Network 的后期解锁，不是开局就有的场景；便宜的龙头水在按更高等级出售前仍然要检测。"
+          }
+        ],
+        "outro": "Wilds Network 这一侧账目见[地下市场攻略](/zh-CN/guides/underground-market)，水桶的检测到贴标顺序见[水商攻略](/zh-CN/guides/water-merchant)。"
+      },
+      {
+        "id": "where-each-line-is-owned",
+        "type": "data-table",
+        "heading": "各条经营线由哪一页负责",
+        "intro": "这一页只是索引，不提供第二套答案。每条经营线仍然由它原本的攻略负责：",
+        "columns": [
+          {
+            "key": "line",
+            "label": "经营线"
+          },
+          {
+            "key": "page",
+            "label": "负责的攻略"
+          }
+        ],
+        "rows": [
+          {
+            "line": "香烟、假货与检测工具",
+            "page": "[怎么识别假货](/zh-CN/guides/spot-fakes)"
+          },
+          {
+            "line": "水的检测、等级与贴标",
+            "page": "[水商攻略](/zh-CN/guides/water-merchant)"
+          },
+          {
+            "line": "设备、槽位与电力",
+            "page": "[生产设备攻略](/zh-CN/guides/crafting-machines)"
+          },
+          {
+            "line": "每条夜间生产链的产出",
+            "page": "[生产链攻略](/zh-CN/guides/production-chains)"
+          },
+          {
+            "line": "夜间拾荒与受伤概率",
+            "page": "[夜间拾荒攻略](/zh-CN/guides/night-scavenging)"
+          },
+          {
+            "line": "许可证、违禁品与搜查",
+            "page": "[地下市场攻略](/zh-CN/guides/underground-market)"
+          },
+          {
+            "line": "货物存放位置与失窃风险",
+            "page": "[库存攻略](/zh-CN/guides/shop-inventory)"
+          }
+        ],
+        "outro": "如果某个攻略提到一个人，这里能查到这个人是谁、能解锁什么。"
+      }
+    ],
+    "adAnchors": [
+      {
+        "after": "who-keeps-coming-back",
+        "slot": "guide-section-break"
+      }
+    ],
+    "faqIds": [],
+    "relatedPageIds": [
+      "zh-CN:getting-started",
+      "zh-CN:crafting-machines",
+      "zh-CN:water-merchant",
+      "zh-CN:underground-market"
+    ],
+    "schemaTypes": [
+      "Article"
+    ],
+    "sourceStatus": "internal",
+    "lastReviewed": "2026-10-27"
   }
 ]

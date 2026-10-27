@@ -138,3 +138,30 @@
   .home-page[data-variant="reference-desk"] .home-entry .v4-guide-index__links li + li,
   .home-page[data-variant="visual-cover"] .home-entry .v4-guide-index__links li + li { border-top: 1px solid var(--line); }
 }
+
+/* Phone layout answers first. On a narrow screen the guide hero keeps its
+   title, its CTA and its hairline, and the hero screenshot moves under the
+   answer card; the homepage CTA row moves above the site blurb. The first
+   screen then carries the answer instead of an image or a paragraph of
+   background. Desktop and tablet keep the approved hero assembly. */
+@media (max-width: 900px) {
+  .site-theme .content-page.content-page { display: flex; flex-direction: column; }
+  .navigation-wiki-sidebar .primary-nav { display: none; }
+  .site-theme .content-page.content-page > .page-hero,
+  .site-theme .content-page.content-page > .content-layout,
+  .site-theme .content-page.content-page > .content-layout > .article-body { display: contents; }
+  .site-theme .content-page.content-page > .page-hero > .hero-copy {
+    order: 1;
+    padding: 14px 0 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  .site-theme .content-page.content-page > .ad-position { order: 2; }
+  .site-theme .content-page.content-page > .content-layout > .article-body > .quick-answer { order: 3; }
+  .site-theme .content-page.content-page > .page-hero > .hero-media { order: 4; margin: 0 0 24px; }
+  .site-theme .content-page.content-page > .content-layout > .article-body > * { order: 10; }
+  .site-theme .home-hero[data-variant="visual-cover"] .hero-copy { display: flex; flex-direction: column; }
+  .site-theme .home-hero[data-variant="visual-cover"] .hero-copy > * { order: 10; }
+  .site-theme .home-hero[data-variant="visual-cover"] .hero-copy > .eyebrow { order: 1; }
+  .site-theme .home-hero[data-variant="visual-cover"] .hero-copy > h1 { order: 2; }
+  .site-theme .home-hero[data-variant="visual-cover"] .hero-copy > .cta-row { order: 3; }
+}

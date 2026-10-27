@@ -34,7 +34,7 @@ export const gettingStartedPage: PageContent = {
       id: "four-tutorial-beats",
       type: "steps",
       heading: "Probably Stolen getting started: the four tutorial beats",
-      intro: "The Mentor scripts four beats that repeat on every run:",
+      intro: "The Mentor scripts four beats that repeat on every run. He is the lender behind the startup loan and the first NPC to enter the shop — the [recurring NPC reference](/guides/recurring-npcs) lists what he and the other regulars supply:",
       items: [
         {
           title: "Keep food in stock.",
@@ -54,7 +54,7 @@ export const gettingStartedPage: PageContent = {
         },
       ],
       outro:
-        "Reread the controls screen if anything feels unfamiliar — equip mode and the toolbox added in UPDATE 049 both change how much you can do in one click.",
+        "Reread the controls screen if anything feels unfamiliar. The tool layer added in UPDATE 049 — the Toolbox and equip mode — is explained on the [fake detection page](/guides/spot-fakes).",
     },
     {
       id: "stage-the-display-case",
@@ -70,7 +70,9 @@ With the tutorial enabled the case is disabled on day one so it cannot desync th
       heading: "Catch the first counterfeit pack",
       body: `Put the magnifying glass on the pack and check it against the handbook. For Hemingway packs the identifiers are colors, logos and security seals, and the tutorial tells are an opened seal, wrong logo geometry and a colour-checker mismatch. One real discrepancy is enough to confront the seller: a correct accusation drops the price, a wrong one costs you reputation.
 
-Counterfeits arrive from the docks whether you asked for them or not, and reselling a fake you failed to catch still hurts your name. The [fake detection page](/guides/spot-fakes) has the full check order and what to do with a lot that fails it.`,
+Later lots need more than the glass. The UV filter covers relabelled goods and chemical composition, and the Toolbox from Dr. Jackson lets you run one tool across a whole selection at once — the [fake detection page](/guides/spot-fakes) has the tool routing per category and what to do with a lot that fails it.
+
+Counterfeits arrive from the docks whether you asked for them or not, and reselling a fake you failed to catch still hurts your name.`,
     },
     {
       id: "count-the-rent",
@@ -139,10 +141,10 @@ The demo offers three scenarios plus a hardcore Rock Bottom run, with Water Merc
     { after: "count-the-rent", slot: "guide-section-break-2" },
   ],
   faqIds: [],
-  relatedPageIds: ["display-case", "money-and-rent", "spot-fakes"],
+  relatedPageIds: ["display-case", "money-and-rent", "spot-fakes", "recurring-npcs"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-27",
 };
 
 export const startingProfessionsPage: PageContent = {

@@ -250,7 +250,7 @@ export const waterMerchantPage: PageContent = {
       heading: "Equipment on the line",
       body: `The testing kit, the purifier, the blue and red labelers, the Bottle Printer and Dr. Jackson's Toolbox are the tools this line runs on. A tap such as Gutterflow on Tap or Rustwater on Tap, bought through the Wild Network, produces cheap water but still needs testing if you intend to sell it as anything better.
 
-The Water Trading Guide is a later unlock from Dr. Jackson added in Patch 48.3.10, and the Wild Network water unlocks — Retired Water Merchant, Gutterflow on Tap and Rustwater on Tap — are later purchases rather than the starting scenario. The [crafting machines page](/guides/crafting-machines) covers what the toolbox holds and when it becomes purchasable.`,
+The Water Trading Guide is a later unlock from Dr. Jackson added in Patch 48.3.10, and the Wild Network water unlocks — Retired Water Merchant, Gutterflow on Tap and Rustwater on Tap — are later purchases rather than the starting scenario. The [crafting machines page](/guides/crafting-machines) covers what the toolbox holds and when it becomes purchasable, and the [recurring NPC page](/guides/recurring-npcs) lists who Jackson and Joe Wild are and when their stock opens.`,
     },
     {
       id: "demand-moves-the-price",
@@ -263,10 +263,10 @@ Bottles come from the bottle printer and better grades come from the purifiers a
   ],
   adAnchors: [{ after: "grades-and-their-risks", slot: "guide-section-break" }],
   faqIds: [],
-  relatedPageIds: ["production-chains", "crafting-machines"],
+  relatedPageIds: ["production-chains", "crafting-machines", "recurring-npcs"],
   schemaTypes: ["Article"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-27",
 };
 
 export const fencePage: PageContent = {

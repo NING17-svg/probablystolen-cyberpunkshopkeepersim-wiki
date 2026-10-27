@@ -6,7 +6,8 @@
     "routeKind": "home",
     "url": "/",
     "alternates": {
-      "en-US": "/"
+      "en-US": "/",
+      "zh-CN": "/zh-CN"
     }
   },
   {
@@ -16,7 +17,8 @@
     "routeKind": "fixed",
     "url": "/guides/buy-out-the-shop",
     "alternates": {
-      "en-US": "/guides/buy-out-the-shop"
+      "en-US": "/guides/buy-out-the-shop",
+      "zh-CN": "/zh-CN/guides/buy-out-the-shop"
     }
   },
   {
@@ -26,7 +28,8 @@
     "routeKind": "fixed",
     "url": "/guides/chemist",
     "alternates": {
-      "en-US": "/guides/chemist"
+      "en-US": "/guides/chemist",
+      "zh-CN": "/zh-CN/guides/chemist"
     }
   },
   {
@@ -36,7 +39,8 @@
     "routeKind": "fixed",
     "url": "/guides/crafting-machines",
     "alternates": {
-      "en-US": "/guides/crafting-machines"
+      "en-US": "/guides/crafting-machines",
+      "zh-CN": "/zh-CN/guides/crafting-machines"
     }
   },
   {
@@ -46,7 +50,8 @@
     "routeKind": "fixed",
     "url": "/guides/customer-reactions",
     "alternates": {
-      "en-US": "/guides/customer-reactions"
+      "en-US": "/guides/customer-reactions",
+      "zh-CN": "/zh-CN/guides/customer-reactions"
     }
   },
   {
@@ -56,7 +61,8 @@
     "routeKind": "fixed",
     "url": "/guides/display-case",
     "alternates": {
-      "en-US": "/guides/display-case"
+      "en-US": "/guides/display-case",
+      "zh-CN": "/zh-CN/guides/display-case"
     }
   },
   {
@@ -66,7 +72,8 @@
     "routeKind": "fixed",
     "url": "/guides/fence",
     "alternates": {
-      "en-US": "/guides/fence"
+      "en-US": "/guides/fence",
+      "zh-CN": "/zh-CN/guides/fence"
     }
   },
   {
@@ -76,7 +83,8 @@
     "routeKind": "fixed",
     "url": "/guides/getting-started",
     "alternates": {
-      "en-US": "/guides/getting-started"
+      "en-US": "/guides/getting-started",
+      "zh-CN": "/zh-CN/guides/getting-started"
     }
   },
   {
@@ -86,7 +94,8 @@
     "routeKind": "fixed",
     "url": "/guides/hydroponic-farmer",
     "alternates": {
-      "en-US": "/guides/hydroponic-farmer"
+      "en-US": "/guides/hydroponic-farmer",
+      "zh-CN": "/zh-CN/guides/hydroponic-farmer"
     }
   },
   {
@@ -96,7 +105,8 @@
     "routeKind": "fixed",
     "url": "/guides/money-and-rent",
     "alternates": {
-      "en-US": "/guides/money-and-rent"
+      "en-US": "/guides/money-and-rent",
+      "zh-CN": "/zh-CN/guides/money-and-rent"
     }
   },
   {
@@ -106,7 +116,8 @@
     "routeKind": "fixed",
     "url": "/guides/night-scavenging",
     "alternates": {
-      "en-US": "/guides/night-scavenging"
+      "en-US": "/guides/night-scavenging",
+      "zh-CN": "/zh-CN/guides/night-scavenging"
     }
   },
   {
@@ -116,7 +127,8 @@
     "routeKind": "fixed",
     "url": "/guides/production-chains",
     "alternates": {
-      "en-US": "/guides/production-chains"
+      "en-US": "/guides/production-chains",
+      "zh-CN": "/zh-CN/guides/production-chains"
     }
   },
   {
@@ -126,7 +138,19 @@
     "routeKind": "fixed",
     "url": "/guides/radioactive-waste",
     "alternates": {
-      "en-US": "/guides/radioactive-waste"
+      "en-US": "/guides/radioactive-waste",
+      "zh-CN": "/zh-CN/guides/radioactive-waste"
+    }
+  },
+  {
+    "id": "recurring-npcs",
+    "translationKey": "recurring-npcs",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/recurring-npcs",
+    "alternates": {
+      "en-US": "/guides/recurring-npcs",
+      "zh-CN": "/zh-CN/guides/recurring-npcs"
     }
   },
   {
@@ -136,7 +160,8 @@
     "routeKind": "fixed",
     "url": "/guides/shop-inventory",
     "alternates": {
-      "en-US": "/guides/shop-inventory"
+      "en-US": "/guides/shop-inventory",
+      "zh-CN": "/zh-CN/guides/shop-inventory"
     }
   },
   {
@@ -146,7 +171,8 @@
     "routeKind": "fixed",
     "url": "/guides/spot-augs",
     "alternates": {
-      "en-US": "/guides/spot-augs"
+      "en-US": "/guides/spot-augs",
+      "zh-CN": "/zh-CN/guides/spot-augs"
     }
   },
   {
@@ -156,7 +182,8 @@
     "routeKind": "fixed",
     "url": "/guides/spot-fakes",
     "alternates": {
-      "en-US": "/guides/spot-fakes"
+      "en-US": "/guides/spot-fakes",
+      "zh-CN": "/zh-CN/guides/spot-fakes"
     }
   },
   {
@@ -166,7 +193,8 @@
     "routeKind": "fixed",
     "url": "/guides/starting-professions",
     "alternates": {
-      "en-US": "/guides/starting-professions"
+      "en-US": "/guides/starting-professions",
+      "zh-CN": "/zh-CN/guides/starting-professions"
     }
   },
   {
@@ -176,7 +204,8 @@
     "routeKind": "fixed",
     "url": "/guides/station-factions",
     "alternates": {
-      "en-US": "/guides/station-factions"
+      "en-US": "/guides/station-factions",
+      "zh-CN": "/zh-CN/guides/station-factions"
     }
   },
   {
@@ -186,7 +215,8 @@
     "routeKind": "fixed",
     "url": "/guides/underground-market",
     "alternates": {
-      "en-US": "/guides/underground-market"
+      "en-US": "/guides/underground-market",
+      "zh-CN": "/zh-CN/guides/underground-market"
     }
   },
   {
@@ -196,7 +226,8 @@
     "routeKind": "fixed",
     "url": "/guides/water-merchant",
     "alternates": {
-      "en-US": "/guides/water-merchant"
+      "en-US": "/guides/water-merchant",
+      "zh-CN": "/zh-CN/guides/water-merchant"
     }
   },
   {
@@ -206,7 +237,250 @@
     "routeKind": "fixed",
     "url": "/guides/weapons-dealer",
     "alternates": {
-      "en-US": "/guides/weapons-dealer"
+      "en-US": "/guides/weapons-dealer",
+      "zh-CN": "/zh-CN/guides/weapons-dealer"
+    }
+  },
+  {
+    "id": "zh-CN:home",
+    "translationKey": "home",
+    "locale": "zh-CN",
+    "routeKind": "home",
+    "url": "/zh-CN",
+    "alternates": {
+      "en-US": "/",
+      "zh-CN": "/zh-CN"
+    }
+  },
+  {
+    "id": "zh-CN:buy-out-the-shop",
+    "translationKey": "buy-out-the-shop",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/buy-out-the-shop",
+    "alternates": {
+      "en-US": "/guides/buy-out-the-shop",
+      "zh-CN": "/zh-CN/guides/buy-out-the-shop"
+    }
+  },
+  {
+    "id": "zh-CN:chemist",
+    "translationKey": "chemist",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/chemist",
+    "alternates": {
+      "en-US": "/guides/chemist",
+      "zh-CN": "/zh-CN/guides/chemist"
+    }
+  },
+  {
+    "id": "zh-CN:crafting-machines",
+    "translationKey": "crafting-machines",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/crafting-machines",
+    "alternates": {
+      "en-US": "/guides/crafting-machines",
+      "zh-CN": "/zh-CN/guides/crafting-machines"
+    }
+  },
+  {
+    "id": "zh-CN:customer-reactions",
+    "translationKey": "customer-reactions",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/customer-reactions",
+    "alternates": {
+      "en-US": "/guides/customer-reactions",
+      "zh-CN": "/zh-CN/guides/customer-reactions"
+    }
+  },
+  {
+    "id": "zh-CN:display-case",
+    "translationKey": "display-case",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/display-case",
+    "alternates": {
+      "en-US": "/guides/display-case",
+      "zh-CN": "/zh-CN/guides/display-case"
+    }
+  },
+  {
+    "id": "zh-CN:fence",
+    "translationKey": "fence",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/fence",
+    "alternates": {
+      "en-US": "/guides/fence",
+      "zh-CN": "/zh-CN/guides/fence"
+    }
+  },
+  {
+    "id": "zh-CN:getting-started",
+    "translationKey": "getting-started",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/getting-started",
+    "alternates": {
+      "en-US": "/guides/getting-started",
+      "zh-CN": "/zh-CN/guides/getting-started"
+    }
+  },
+  {
+    "id": "zh-CN:hydroponic-farmer",
+    "translationKey": "hydroponic-farmer",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/hydroponic-farmer",
+    "alternates": {
+      "en-US": "/guides/hydroponic-farmer",
+      "zh-CN": "/zh-CN/guides/hydroponic-farmer"
+    }
+  },
+  {
+    "id": "zh-CN:money-and-rent",
+    "translationKey": "money-and-rent",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/money-and-rent",
+    "alternates": {
+      "en-US": "/guides/money-and-rent",
+      "zh-CN": "/zh-CN/guides/money-and-rent"
+    }
+  },
+  {
+    "id": "zh-CN:night-scavenging",
+    "translationKey": "night-scavenging",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/night-scavenging",
+    "alternates": {
+      "en-US": "/guides/night-scavenging",
+      "zh-CN": "/zh-CN/guides/night-scavenging"
+    }
+  },
+  {
+    "id": "zh-CN:production-chains",
+    "translationKey": "production-chains",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/production-chains",
+    "alternates": {
+      "en-US": "/guides/production-chains",
+      "zh-CN": "/zh-CN/guides/production-chains"
+    }
+  },
+  {
+    "id": "zh-CN:radioactive-waste",
+    "translationKey": "radioactive-waste",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/radioactive-waste",
+    "alternates": {
+      "en-US": "/guides/radioactive-waste",
+      "zh-CN": "/zh-CN/guides/radioactive-waste"
+    }
+  },
+  {
+    "id": "zh-CN:recurring-npcs",
+    "translationKey": "recurring-npcs",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/recurring-npcs",
+    "alternates": {
+      "en-US": "/guides/recurring-npcs",
+      "zh-CN": "/zh-CN/guides/recurring-npcs"
+    }
+  },
+  {
+    "id": "zh-CN:shop-inventory",
+    "translationKey": "shop-inventory",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/shop-inventory",
+    "alternates": {
+      "en-US": "/guides/shop-inventory",
+      "zh-CN": "/zh-CN/guides/shop-inventory"
+    }
+  },
+  {
+    "id": "zh-CN:spot-augs",
+    "translationKey": "spot-augs",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/spot-augs",
+    "alternates": {
+      "en-US": "/guides/spot-augs",
+      "zh-CN": "/zh-CN/guides/spot-augs"
+    }
+  },
+  {
+    "id": "zh-CN:spot-fakes",
+    "translationKey": "spot-fakes",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/spot-fakes",
+    "alternates": {
+      "en-US": "/guides/spot-fakes",
+      "zh-CN": "/zh-CN/guides/spot-fakes"
+    }
+  },
+  {
+    "id": "zh-CN:starting-professions",
+    "translationKey": "starting-professions",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/starting-professions",
+    "alternates": {
+      "en-US": "/guides/starting-professions",
+      "zh-CN": "/zh-CN/guides/starting-professions"
+    }
+  },
+  {
+    "id": "zh-CN:station-factions",
+    "translationKey": "station-factions",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/station-factions",
+    "alternates": {
+      "en-US": "/guides/station-factions",
+      "zh-CN": "/zh-CN/guides/station-factions"
+    }
+  },
+  {
+    "id": "zh-CN:underground-market",
+    "translationKey": "underground-market",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/underground-market",
+    "alternates": {
+      "en-US": "/guides/underground-market",
+      "zh-CN": "/zh-CN/guides/underground-market"
+    }
+  },
+  {
+    "id": "zh-CN:water-merchant",
+    "translationKey": "water-merchant",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/water-merchant",
+    "alternates": {
+      "en-US": "/guides/water-merchant",
+      "zh-CN": "/zh-CN/guides/water-merchant"
+    }
+  },
+  {
+    "id": "zh-CN:weapons-dealer",
+    "translationKey": "weapons-dealer",
+    "locale": "zh-CN",
+    "routeKind": "fixed",
+    "url": "/zh-CN/guides/weapons-dealer",
+    "alternates": {
+      "en-US": "/guides/weapons-dealer",
+      "zh-CN": "/zh-CN/guides/weapons-dealer"
     }
   }
 ]

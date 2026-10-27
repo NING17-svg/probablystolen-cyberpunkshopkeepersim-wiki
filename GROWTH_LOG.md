@@ -6,6 +6,18 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-10-27 - Inspection tools, poster reporting and a recurring-NPC reference
+
+- Three content tasks handled as one publish batch. One new route was added and the English and Simplified Chinese editions were updated in the same pass, so the site now ships 22 English pages and 44 routes in total.
+- New page `/guides/recurring-npcs` (English) and `/zh-CN/guides/recurring-npcs` (Chinese), in a new guide family `src/data/pages/guides/cast.ts`. It is a reference page: a who/what/supplies/unlock table plus per-person beat lists for the Mentor, Dr. Jackson and Joe Wild, and a closing table that only points back to the page owning each product line. It answers the "who keeps coming back and what does it unlock" question without duplicating the other guides' answers.
+- `/guides/spot-fakes` gained a per-category tool-routing table (which tool catches which fake), a dated UV-filter section and a step-by-step batch workflow for the day-14 Toolbox: the 2026-09-20 demo guide is the only located source, and it reports that an update now prevents UV testing on items you do not own, so the free supplier test no longer exists. The page's quick answer and meta description were rewritten around the inspection order, the day-14 Toolbox and the change, and the original per-category tells (including the fake weapon/permit raid risk) were kept.
+- `/guides/customer-reactions` gained a wanted-poster reporting procedure (compare the poster details, check the person rather than the lot, report only on a match, refuse when no tell is visible) and a closing section on the asymmetric cost of a wrong report. The customer table now distinguishes a wanted criminal who is reported from an Aug host who is shot.
+- `/guides/getting-started`, `/guides/crafting-machines`, `/guides/water-merchant`, `/guides/underground-market`, `/guides/spot-augs` and `/guides/customer-reactions` link into the new reference page and into the two separated checks, so the recurring cast has a defined home and the poster check no longer blurs into the authentication check.
+- The homepage directory gained a "The people you keep meeting" group, and `src/data/navigation.ts` gained a matching sidebar entry. Ad placements, bound unit keys, the ad-placement manifest and `src/data/ads.ts` are unchanged; the new page uses the existing `guide-section-break` slot.
+- On phones the duplicate header guide tree is hidden while the collapsible "All guides" index stays available, reducing the space above the direct answer. The disclosure uses the native details state to avoid a responsive hydration race.
+- `route-manifest.json` was regenerated, and `CONTENT_INDEX.md` was updated with the new row, the new Chinese counterpart and the new route counts.
+- Verification: local `npm run verify` (typecheck + lint + build) plus the Guide V4 update screenshot gate over all changed paths.
+
 ### 2026-10-24 - Simplified Chinese edition
 
 - Added `/zh-CN` and Chinese counterparts for all 20 existing guide URLs, with Chinese answers, headings, navigation, search, related links, image descriptions and shared advertising positions. English root routes remain the primary-locale paths.

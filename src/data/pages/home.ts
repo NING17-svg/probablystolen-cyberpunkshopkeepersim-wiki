@@ -54,6 +54,17 @@ export const homePage: PageContent = {
             },
           ],
         },
+        {
+          title: "The people you keep meeting",
+          items: [
+            {
+              label: "Recurring NPCs and vendors",
+              href: "/guides/recurring-npcs",
+              description:
+                "who the Mentor, Dr. Jackson and Joe Wild are, what each supplies, and when each unlocks.",
+            },
+          ],
+        },
       ],
     },
     {
@@ -109,7 +120,7 @@ Everything else hangs off that. Reputation opens licences, underground deals and
             {
               label: "How to spot fakes",
               href: "/guides/spot-fakes",
-              description: "the three checks on a lot, and the four ways to answer a counterfeit.",
+              description: "which tool catches which fake, and the four ways to answer a counterfeit.",
             },
             {
               label: "Underground market",
@@ -213,7 +224,8 @@ Everything else hangs off that. Reputation opens licences, underground deals and
             {
               label: "Customer reactions guide",
               href: "/guides/customer-reactions",
-              description: "who walks in, and how approve, refuse, report and look away differ.",
+              description:
+                "who walks in, how to check a customer against a wanted poster, and how approve, refuse, report and look away differ.",
             },
           ],
         },
@@ -228,5 +240,5 @@ Everything else hangs off that. Reputation opens licences, underground deals and
   relatedPageIds: [],
   schemaTypes: ["WebSite", "CollectionPage"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-20",
+  lastReviewed: "2026-10-27",
 };
